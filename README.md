@@ -1,8 +1,6 @@
-# TVS SC website, based on html5up Prologue template 
+# TVS SC website, 
 
-
-
-Prologue by HTML5 UP
+based on Prologue by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
