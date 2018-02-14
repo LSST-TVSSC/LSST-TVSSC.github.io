@@ -1,4 +1,4 @@
-# TVS SC website, 
+# TVS SC website
 
 based on Prologue by HTML5 UP
 html5up.net | @ajlkn
