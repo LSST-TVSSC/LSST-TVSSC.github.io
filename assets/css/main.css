@@ -1575,7 +1575,7 @@
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
-		color: #888;
+		color: #666;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -1585,12 +1585,12 @@
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-		color: inherit;
+		color: #87ceeb;
 		text-decoration: none;
 	}
 
 		h1 a strong, h2 a strong, h3 a strong, h4 a strong, h5 a strong, h6 a strong {
-			color: #333;
+			color: #87ceeb;
 		}
 
 	h2 {
@@ -1633,8 +1633,7 @@
 
 	a {
 		text-decoration: none;
-		color: inherit;
-		border-bottom: dotted 1px rgba(128, 128, 128, 0.5);
+		color: #87ceeb;
 		-moz-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-webkit-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-ms-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
@@ -1643,9 +1642,8 @@
 	}
 
 		a:hover {
-			color: #E27689;
-			border-bottom-color: rgba(255, 255, 255, 0);
-		}
+			color: #87ceeb;
+			}
 
 	sub {
 		position: relative;
@@ -1707,14 +1705,14 @@
 		}
 
 		.image.avatar48 {
-			width: 48px;
-			height: 48px;
+			width: 161px;
+			height: 66px;
 			background: #f00;
 		}
 
 			.image.avatar48 img {
-				width: 48px;
-				height: 48px;
+				width: 161px;
+				height: 66px;
 			}
 
 		.image.fit {
@@ -2158,7 +2156,7 @@
 			}
 
 				#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
-					color: inherit;
+					color: #fff;
 				}
 
 				#main > section.dark strong {
@@ -2167,7 +2165,7 @@
 				}
 
 				#main > section.dark a {
-					color: #fff;
+					color: #87ceeb;
 					border-color: inherit;
 				}
 
@@ -2183,7 +2181,7 @@
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				background-image: url("../../images/banner.png")s;
 			}
 
 			#main > section.two {
