@@ -1709,14 +1709,15 @@
 		}
 
 		.image.avatar48 {
-			width: 161px;
-			height: 66px;
+			width: 181px;
+			height: 75px;
 			background: #f00;
 		}
 
 			.image.avatar48 img {
-				width: 161px;
-				height: 66px;
+				width: 181px;
+				height: 75px;
+                
 			}
 
 		.image.fit {
@@ -1737,7 +1738,7 @@
 
 		.image.centered {
 			display: block;
-			margin: 0 0 2em 0;
+			margin: 0 0 20em 0;
 		}
 
 			.image.centered img {
@@ -2040,7 +2041,7 @@
 				}
 
 	#logo {
-		position: relative;
+		position: relativie;
 		margin: 1.75em 1.5em 1.5em 1.5em;
 		min-height: 48px;
 		cursor: default;
