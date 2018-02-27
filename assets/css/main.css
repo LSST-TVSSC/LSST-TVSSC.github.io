@@ -1585,12 +1585,12 @@
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-		color: #87ceeb;
+		color: #4682b4;
 		text-decoration: none;
 	}
 
 		h1 a strong, h2 a strong, h3 a strong, h4 a strong, h5 a strong, h6 a strong {
-			color: #87ceeb;
+			color: #4682b4;
 		}
 
 	h2 {
@@ -1604,7 +1604,7 @@
 		}
 
 			h2.alt strong {
-				color: #87ceeb;
+				color: #4682b4;
 			}
 
 	h3 {
@@ -1627,7 +1627,7 @@
 
 	strong, b {
 		font-weight: 300;
-		color: #87ceeb;
+		color: #4682b4;
 	}
 
 	em, i {
@@ -1636,7 +1636,7 @@
 
 	a {
 		text-decoration: none;
-		color: #87ceeb;
+		color: #4682b4;
 		-moz-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-webkit-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-ms-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
@@ -1645,7 +1645,7 @@
 	}
 
 		a:hover {
-			color: #87ceeb;
+			color: #4682b4;
 			}
 
 	sub {
@@ -1695,6 +1695,46 @@
 		.row > section, .row > article {
 			margin-bottom: 0;
 		}
+/* Round avatar */
+.avatar {
+    float: center;
+    margin-top: 1em;
+    margin-right: 1em;
+    position: relative;
+
+    -webkit-border-radius: 50%;
+    -moz-border-radius: -50%;
+    border-radius: 50%;
+
+    -webkit-box-shadow: 0 0 0 0px #fff, 0 0 0 0px #999;
+}
+
+/* chairs */
+.grid-container-chairs {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+
+}
+.grid-container-chairs > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.grid-container4 {
+  display: grid;
+  grid-template-columns: auto auto auto auto ;
+  grid-gap: 10px;
+  padding: 10px;
+
+}
+.grid-container4 > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 15px;
+}
 
 /* Image */
 
@@ -2045,7 +2085,7 @@
 		margin: 1.75em 1.5em 1.5em 1.5em;
 		min-height: 48px;
 		cursor: default;
-        color: #87ceeb;
+        color: #4682b4;
 	}
 
 		#logo h1 {
@@ -2106,11 +2146,11 @@
 			#nav ul li a.active {
 				background: rgba( 255, 255, 255, 0.25);
 				box-shadow: inset 0 0 0.25em 0 rgba(0, 0, 0, 0.125);
-				color: #87ceeb;;
+				color: #4682b4;;
 			}
 
 				#nav ul li a.active span:before {
-					color: #87ceeb;
+					color: #4682b4;
 				}
 
 /* Footer */
@@ -2173,7 +2213,7 @@
 				}
 
 				#main > section.dark a {
-					color: #87ceeb;
+					color: #4682b4;
 					border-color: inherit;
 				}
 
@@ -2268,7 +2308,7 @@
 
 			ul.icons li a {
 				width: 1.75em;
-                color: #87ceeb;
+                color: #4682b4;
 
 			}
 
