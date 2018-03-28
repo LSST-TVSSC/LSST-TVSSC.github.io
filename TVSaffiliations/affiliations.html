@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      #tooltip {
+        color: white;
+        opacity: .9;
+        background: #333;
+        padding: 5px;
+        border: 1px solid lightgrey;
+        border-radius: 5px;
+        position: absolute;
+        z-index: 10;
+        visibility: hidden;
+        white-space: nowrap;
+        /*pointer-events: none;*/
+      }
+      #circle circle {
+        fill: none;
+        pointer-events: all;
+      }
+      path.group {
+        fill-opacity: .8;
+      }
+      path.chord {
+        fill-opacity: .8;
+        stroke: #000;
+        stroke-width: .25px;
+      }
+      #circle:hover path.fade {
+        display: none;
+      }
+    </style>
+  
+  </head>
+  <body  link="SteelBlue" vlink="SteelBlue" alink="SteelBlue">
+    <table border="0" style="width:60%">
+  <tr><td>
+
+
+<p>      This is chord diagram showing the structure of the <a href="https://tvs.science.lsst.org/">LSST Transients and Variable Stars Collaboration - TVS</a> and the affiliation to LSST TVS subgroups. Each pair linked by a chord represents two subgroup affiliations that are shared by a number of members proportional to the width of the chord.</p>
+<p>
+Roll over each wedge to see more information about each subgroup pair and on the arc to know more about the subgroup.
+    The code is on <a href="https://github.com/fedhere/TVSaffiliations">github</a>, text is parsed in gathered and python and  the graphics is created in <a href="http://d3js.org/">d3</a>, leveraging <b> heavily<b> off this demo <a href="http://www.delimited.io/blog/2013/12/8/chord-diagrams-in-d3">blogpost</a> by <a href="http://www.delimited.io/about/">Steve Hall</a></td>
+  </tr>
+</table>
+    <div id="charts"></div>
+    <div id="tooltip" vlink="#808080" alink="#FF0000"></div>
+    <script type=
+    "text/javascript" src="http://d3js.org/d3.v3.min.js">
+</script>
+    <script src="lib/underscore.js"></script>
+    <script src="scripts/js/mapper.js"></script>
+
+    <script>
+var matrixOut = 'data/affiliations-matrix.json';
+var mapOut = 'data/affiliations-map.json';
+
+      //*******************************************************************
+      //  CREATE MATRIX AND MAP
+      //*******************************************************************
+
+ 
+d3.csv('data/affiliations.csv', function (error, data) {
+        var mpr = chordMpr(data);
+        _.each(data, function (d) {
+          mpr.addToMap(d.word1, d.field, d.fielddef)
+        });
+        mpr.setFilter(function (row, a, b) {
+            return (row.word1 === a.name && row.word2 === b.name)
+          })
+          .setAccessor(function (recs, a, b) {
+            if (!recs[0]) return 0;
+            return {count: recs[0].count, field: recs[0].field, valueOf: value, fielddef:recs[0].fielddef};
+          });
+        drawChords(mpr.getMatrix(), mpr.getMap());
+      function value() { return +this.count; }
+      });
+
+     //console.log(matrix, mmap);
+
+                                      
+      //*******************************************************************
+      //  DRAW THE CHORD DIAGRAM
+      //*******************************************************************
+      function testChords (matrix, mmap) {
+      console.log(matrix,mmap)
+      };
+      //*******************************************************************
+      //  DRAW THE CHORD DIAGRAM
+      //*******************************************************************
+     function drawChords (matrix, mmap) {
+
+
+function readstats () {
+d3.csv("data/affiliationsNumbers.csv", function(error, data){
+     
+      data.map(function(d)
+        {
+            console.log("subg:", d.subg)
+            //each d is one line of the csv file represented as a json object
+            subg = d.subg;
+            //we slice the dollar sign off then convert to a number with the + sign
+            //slicing works like "$216".slice(1) gives you 216, 
+            //you can also give it a range like "$216 asdf".slice(1,4) gives you 216
+            p = parseInt(d.tot)
+            //console.log("tot:", p,d.tot);
+            return {d} ;
+});
+console.log("tostats", data);
+return data
+});
+     }
+tostats = readstats()
+var subgroups = {}
+subgroups['Classification/Characterization']="https://tvs.science.lsst.org/node/10"
+subgroups['DistanceScale']="https://www.lsstcorp.org/sciencewiki/index.php?title=Distance_Scale"
+subgroups['FastTransients']="https://tvs.science.lsst.org/node/14"
+subgroups['Galactic'] = "https://tvs.science.lsst.org/node/19"
+subgroups['InteractingBinaries']="https://tvs.science.lsst.org/node/20"
+subgroups['MagneticallyActiveStars']="https://www.lsstcorp.org/sciencewiki/index.php?title=Magnetically_Active_Stars"
+subgroups['MicrolensingSubgroup']="https://www.lsstcorp.org/sciencewiki/index.php?title=Microlensing_Subgroup"
+subgroups['MultiwavelengthCharacterization/Counterparts']="https://tvs.science.lsst.org/node/11"
+subgroups['Non-degenerateEruptiveVariables']="https://tvs.science.lsst.org/node/6"
+subgroups['PulsatingVariables']="https://www.lsstcorp.org/sciencewiki/index.php?title=Pulsating_Variables"
+subgroups['Supernovae']="https://tvs.science.lsst.org/node/7"
+subgroups['TidalDisruptionEvents']="https://tvs.science.lsst.org/node/13#overlay-context=subgroups"
+subgroups['TransitingPlanets']="https://tvs.science.lsst.org/node/18"
+
+
+
+
+save_twentycols=["#000000", "#070D12", "#0E1A24", "#152736", "#1C3448", "#23415A", "#2A4E6C", "#315B7E", "#386890", "#3F75A2","#4682B4","#588EBC","#6B9BC3","#7EA8CA","#90B4D2","#A2C0DA","#B5CDE1","#C8DAE8","#DAE6F0","#ECF2F8","#FFFFFF"]
+twentycols=[ "#070D12", "#152736", "#23415A", "#315B7E", "#3F75A2","#588EBC","#7EA8CA","#A2C0DA","#C8DAE8","#ECF2F8","#FFFFFF"]
+twentycols = ['#9C6744','#C9BEB9', "#C8DAE8",'#CFA07E','#C4BAA1','#C2B6BF','#85889E',"#4682B4",'#9C7989','#91919C','#242B27','#212429','#99677B','#36352B','#33332F','#2B2B2E','#2E1F13','#2B242A','#918A59','#6E676C','#6E4752','#6B4A2F','#998476','#8A968D','#968D8A','#968D96','#CC855C', '#967860','#929488','#949278','#A0A3BD','#BD93A1','#65666B','#6B5745','#6B6664','#695C52','#56695E','#69545C','#565A69','#696043','#63635C','#636150','#333131','#332820','#302D30','#302D1F','#2D302F','#CFB6A3','#362F2A'];
+
+        var margin = {top: 50, right: 40, bottom: 50, left: 20};
+        var w = 900, h = 700, r1 = h / 2, r0 = r1 - 100;
+
+        var fill = d3.scale.ordinal()
+            .domain(d3.range(12))
+            .range(twentycols)
+
+
+        var chord = d3.layout.chord()
+            .padding(.02)
+            .sortSubgroups(d3.descending)
+            .sortChords(d3.descending);
+
+        var arc = d3.svg.arc()
+            .innerRadius(r0)
+            .outerRadius(r0 + 20);
+
+        var svg = d3.select("#charts").append("svg:svg")
+            .attr("width", w)
+            .attr("height", h)
+          .append("svg:g")
+            .attr("id", "circle")
+            .attr("transform", "translate(" + w / 2 + "," + h / 2 + ")");
+            svg.append("circle")
+                .attr("r", r0 + 20);
+
+       var rdr = chordRdr(matrix, mmap);
+        chord.matrix(matrix);
+        console.log("chord",chord.chords());
+
+        function mouseovergroup(d, i) {
+            console.log("object", groupTip(rdr(d)));
+          d3.select("#tooltip")
+.style("visibility", "visible")
+.html("<a href='"+groupTip(rdr(d))+"' style='color: #ffffff'>link to subgroup page</a><br/>")
+              .style("top", function () { return (d3.event.pageY + 5)+"px"})
+              .style("left", function () { return (d3.event.pageX + 5)+"px";})
+
+            chordPaths.classed("fade", function(p) {
+              return p.source.index != i
+                  && p.target.index != i;
+            });
+}
+
+        console.log(tostats);
+        var g = svg.selectAll("g.group")
+            .data(chord.groups())
+          .enter().append("svg:g")
+          .attr("class", "group")
+          .on("mouseover", mouseovergroup);
+            //.on("mouseout", function (d) { d3.select("#tooltip").style("visibility", "hidden") });
+
+          g.append("svg:path")
+            .style("stroke", "black")
+            .style("fill", function(d) {  return twentycols[d.index]})
+            .attr("d", arc);
+
+          g.append("svg:text")
+            .each(function(d) { d.angle = (d.startAngle + d.endAngle) / 2; })
+            .attr("dy", ".35em")
+            .style("font-family", "helvetica, arial, sans-serif")
+            .style("font-size", "15px")
+            .attr("text-anchor", function(d) { return d.angle > Math.PI ? "end" : null; })
+            .attr("transform", function(d) {
+              return "rotate(" + (d.angle * 180 / Math.PI - 90) + ")"
+                  + "translate(" + (r0 + 26) + ")"
+                  + (d.angle > Math.PI ? "rotate(180)" : "");
+            })
+            .text(function(d) { return rdr(d).gname; });
+
+        var chordPaths = svg.selectAll("path.chord")
+                .data(chord.chords())
+              .enter().append("svg:path")
+                .attr("class", "chord")
+                .style("stroke", function(d) { return d3.rgb(fill(+rdr(d).sdata.field)).darker();})
+                .style("fill", function(d) { console.log(d);return  (twentycols[d.source.index]); })
+                .attr("d", d3.svg.chord().radius(r0))
+                .on("mouseover", function (d) {
+                  d3.select("#tooltip")
+                    .style("visibility", "visible")
+                    .html(chordTip(rdr(d)))
+                    .style("top", function () { return (d3.event.pageY - 100)+"px"})
+                    .style("left", function () { return (d3.event.pageX - 100)+"px";})
+                 })
+                .on("mouseout", function (d) { d3.select("#tooltip").style("visibility", "hidden") });
+
+        function chordTip (d) {
+            var p = d3.format(".2%"), q = d3.format(",r")
+            return "Chord Info:<br/>"
+              + p(d.svalue/d.stotal) + " (" + q(d.svalue) + ") of the people in the "
+              + d.sname + " subgroup <br/>are also in  " + d.tname
+          }
+        function getByValue(arr, value) {
+
+           for (var i=0, iLen=arr.length; i<iLen; i++) {
+
+             if (arr[i].b == value) return arr[i];
+           }
+        }
+        function groupTip (d) {
+           console.log(subgroups)
+           var p = d3.format(".1%"), q = d3.format(".1r"), z = d3.format(".1r")
+           return subgroups[d.gname]
+           //"The affiliaton to '" + d.gname
+           //     + "' <br/> is chosen as either primary or secondary  by "
+           //     + q(d.gvalue) + " members. <br/>"
+           //     + p(d.gvalue/d.mtotal)
+           //     + " of all affiliations (" + q(d.mtotal) + ")<br/>" 
+          }
+
+       //function mouseover(d, i) {
+        //    console.log("<a href='"+groupTip(rdr(d))+"'>link to subgroup page</a>")
+        //    d3.select("#tooltip")
+        //      .style("visibility", "visible")
+        //      .html("<a href='"+groupTip(rdr(d))+"'>link to subgroup page</a>")
+        //      .style("top", function () { return (d3.event.pageY + 80)+"px"})
+        //      .style("left", function () { return (d3.event.pageX - 130)+"px";})
+        //                                          
+        //    chordPaths.classed("fade", function(p) {
+        //      return p.source.index != i
+        //          && p.target.index != i;
+        //    });
+        //  }
+  
+      }
+
+    </script>
+
+  </body>
+</html>
