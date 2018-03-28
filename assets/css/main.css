@@ -1744,7 +1744,18 @@
   padding: 20px 0;
   font-size: 15px;
 }
+.grid-container2 {
+  display: grid;
+  grid-template-columns: auto auto  ;
+  grid-gap: 10px;
+  padding: 10px;
 
+}
+.grid-container2 > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 15px;
+}
 /* Image */
 
 	.image {
@@ -2238,7 +2249,7 @@
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/banner.png")s;
+				background-image: url("../../images/banner.png");
 			}
 
 			#main > section.two {
