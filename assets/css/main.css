@@ -2159,7 +2159,10 @@
 				font-size: 0.8em;
 			}
 
-				#nav ul li a span:before {
+            #nav ul li a:hover{
+                    color: #4682b4;
+            }
+    #nav ul li a span:before {
 					position: absolute;
 					left: 0;
 					color: #666;
@@ -2169,9 +2172,8 @@
 				}
 
 			#nav ul li a.active {
-				background: rgba( 255, 255, 255, 0.25);
 				box-shadow: inset 0 0 0.25em 0 rgba(0, 0, 0, 0.125);
-				color: #4682b4;;
+				color: #4682b4;
 			}
 
 				#nav ul li a.active span:before {
@@ -2253,20 +2255,20 @@
 			}
 
 			#main > section.one {
-				background-color: #81918E;
+				background-color: #ddd;
 				background-image: url("https://LSST-TVSSC.github.io/images/banner.png");
 			}
 
 			#main > section.two {
-				background-color: #f5fafa;
+				background-color: #fff;
 			}
 
 			#main > section.three {
-				background-color: #ddd;
+				background-color: #fff;
 			}
 
 			#main > section.four {
-				background-color: #e8edec;
+				background-color: #fff;
 			}
 
 /* Wide */
