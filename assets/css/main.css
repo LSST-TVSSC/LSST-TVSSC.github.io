@@ -1776,7 +1776,7 @@
 		.image.avatar48 {
 			width: 181px;
 			height: 75px;
-			background: #f00;
+			background: #708EA9;
 		}
 
 			.image.avatar48 img {
@@ -1827,12 +1827,12 @@
 	}
 
 		ul.icons li {
-            color: #666;
+            color: #444;
 			display: inline-block;
 		}
 
 		ul.icons a {
-            color: #666;
+            color: #444;
 			display: inline-block;
 			width: 2em;
 			height: 2em;
@@ -1937,7 +1937,7 @@
 		}
 
 			table.default tbody tr:nth-child(2n+2) {
-				background: #f4f4f4;
+				background: #;
 			}
 
 			table.default td {
@@ -1957,7 +1957,7 @@
 			}
 
 			table.default tfoot {
-				background: #aaa;
+				background: #9098AC;
 			}
 
 /* Button */
@@ -1999,7 +1999,7 @@
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background-color: #7692c4;
+			background-color: #6F8DAA;
 		}
 
 /* Item */
@@ -2057,7 +2057,7 @@
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #eee url("images/overlay.png");
+		background: #708EA9 ;
 		box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
 		color: #000;
 		height: 100%;
@@ -2094,7 +2094,7 @@
 		}
 
 			#header .icons a {
-				color: #41484c;
+				color: #f4f4f4;
 				-moz-transition: color 0.35s ease-in-out;
 				-webkit-transition: color 0.35s ease-in-out;
 				-ms-transition: color 0.35s ease-in-out;
@@ -2102,7 +2102,7 @@
 			}
 
 				#header .icons a:hover {
-					color: #fff;
+					color: #FCDD5D;
 				}
 
 	#logo {
@@ -2110,12 +2110,12 @@
 		margin: 1.75em 1.5em 1.5em 1.5em;
 		min-height: 48px;
 		cursor: default;
-        color: #4682b4;
+        color: #f4f4f4;
 	}
 
 		#logo h1 {
 			position: relative;
-			color: #555;
+			color: #f4f4f4;
 			font-weight: 600;
 			font-size: 1em;
 			line-height: 1em;
@@ -2127,7 +2127,7 @@
 			font-size: 0.6em;
 			line-height: 1.25em;
 			margin: 0.5em 0 0 0;
-            color: #666;
+            color: #f4f4f4;
 		}
 
 		#logo .image {
@@ -2143,7 +2143,7 @@
 		#nav ul li a {
 			display: block;
 			padding: 0.5em 1.5em 0.5em 1.5em;
-            color: #666;
+            color: #f4f4f4;
 			text-decoration: none;
 			outline: 0;
 			border: 0;
@@ -2160,12 +2160,12 @@
 			}
 
             #nav ul li a:hover{
-                    color: #4682b4;
+                    color: #FCDD5D;
             }
     #nav ul li a span:before {
 					position: absolute;
 					left: 0;
-					color: #666;
+					color: #f4f4f4;
 					text-align: center;
 					width: 1.25em;
 					line-height: 1.75em;
@@ -2173,11 +2173,11 @@
 
 			#nav ul li a.active {
 				box-shadow: inset 0 0 0.25em 0 rgba(0, 0, 0, 0.125);
-				color: #4682b4;
+				color: #FCDD5D;
 			}
 
 				#nav ul li a.active span:before {
-					color: #4682b4;
+					color: #FCDD5D;
 				}
 
 /* Footer */
@@ -2185,7 +2185,7 @@
 	#footer {
 		margin-left: 375px;
 		text-align: center;
-		background-color: #ddd;
+		background-color: #fff;
 		padding: 3em 0 4em 0;
 		box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
 		font-size: 0.8em;
@@ -2255,7 +2255,7 @@
 			}
 
 			#main > section.one {
-				background-color: #ddd;
+				background-color: #fff;
 				background-image: url("https://LSST-TVSSC.github.io/images/banner.png");
 			}
 
