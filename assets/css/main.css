@@ -1776,7 +1776,8 @@
 		.image.avatar48 {
 			width: 181px;
 			height: 75px;
-			background: #708EA9;
+			background: #fff;
+			background: #fff;
 		}
 
 			.image.avatar48 img {
@@ -2057,7 +2058,7 @@
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #708EA9 ;
+		background: #000 ;
 		box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
 		color: #000;
 		height: 100%;
