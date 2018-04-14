@@ -1776,8 +1776,7 @@
 		.image.avatar48 {
 			width: 181px;
 			height: 75px;
-			background: #fff;
-			background: #fff;
+			background: #708EA9;
 		}
 
 			.image.avatar48 img {
@@ -2109,7 +2108,7 @@
 	#logo {
 		position: relativie;
 		margin: 1.75em 1.5em 1.5em 1.5em;
-		min-height: 48px;
+		min-height: 88px;
 		cursor: default;
         color: #f4f4f4;
 	}
