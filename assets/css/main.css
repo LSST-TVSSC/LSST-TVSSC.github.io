@@ -1585,15 +1585,16 @@
 		color: #fff;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+h1, h2, h3{
 		font-weight: 300;
 		color: #666;
 		line-height: 1.5em;
 	}
    
-
-	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-		color: #4682b4;
+h4, h5, h6 {
+		font-weight: 600;
+		color: #666;
+		line-height: 1.5em;
 		text-decoration: none;
 	}
 
@@ -2116,6 +2117,7 @@
 		#logo h1 {
 			position: relative;
 			color: #f4f4f4;
+            padding-top: 55px;
 			font-weight: 600;
 			font-size: 1em;
 			line-height: 1em;
