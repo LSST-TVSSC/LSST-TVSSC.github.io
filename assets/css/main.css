@@ -2062,7 +2062,6 @@ h4, h5, h6 {
 		box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
 		color: #000;
 		height: 100%;
-		left: 0;
 		overflow-y: auto;
 		position: fixed;
 		text-align: right;
