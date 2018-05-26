@@ -45,6 +45,10 @@
         margin-left: 2em;
 		border-collapse: collapse;
 		border-spacing: 0;
+        width: 100%;
+		text-align: left;
+		}
+        
 	}
     th, td {
     padding: 15px;
