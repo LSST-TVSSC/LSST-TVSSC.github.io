@@ -1,0 +1,34 @@
+Science Case:
+Young stars with variability
+
+Members and roles:
+primary contact:
+Rosaria (Sara) Bonito, INAF - Osservatorio Astronomico di Palermo
+collaborators:
+Francesco Damiani, INAF - Osservatorio Astronomico di Palermo
+Loredana Prisinzano, INAF - Osservatorio Astronomico di Palermo 
+Teresa Giannini, INAF - Osservatorio Astronomico di Roma
+Germano Sacco, INAF - Osservatorio Astrofisico di Arcetri
+Simone Antoniucci, INAF - Osservatorio Astronomico di Roma
+
+Goal:
+Investigate stellar variability of single objects or in statistical samples in stellar clusters. Analyze variability due to: stellar activity; accretion process, also in eruptive bursts (FUors and EXors); rotation; etc..
+Identify specific fields and targets and the proper cadence to pursue the study of variability for young stars in general.
+
+Work Plan:
+
+- identify collaborators for the proposed science case. A synergy with groups working on the stellar variability in different range of ages could lead to a collaboration for a proposal on stellar variability in general
+
+- investigate the feasibility to optimize the cadence required, as the stellar variability range is different in different context
+
+- take advantage of data collected in existing surveys ad previous programs (Gaia-ESO Survey, Chandra, etc.) to characterize the interesting fields and objects also using a multi-wavelength approach
+
+- identify specific fields and targets
+
+- circulate outlines of the proposal (or part of a larger proposal including other stellar variability)
+
+- participate to meetings focused on the preparation of MS and DDF proposals (e.g. Napoli and Palermo in Italy in April and October 2018) 
+
+Milestones and Deliverables:
+
+Stellar variability due to stellar activity, to accretion process also in eruptive bursts (FUors and EXors), to rotation, etc., will benefit from higher cadence exploring different properties as clusters with different ages, metallicity, and location. The Galactic Plane should be investigated with a cadence higher with respect to the Main Survey to follow the variability of stars. Analysis of available data from previous surveys as well as the development of diagnostic tools will be used to investigate the proposed issue.
