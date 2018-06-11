@@ -1767,6 +1767,21 @@ h4, h5, h6 {
   padding: 20px 0;
   font-size: 15px;
 }
+.grid-container4_2 {
+  display: grid;
+  border: 0px solid black;
+  grid-template-columns: auto auto auto auto ;
+  grid-gap: 10px;
+  padding: 10px;
+
+}
+.grid-container4_2 > div {
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid #aaa;
+  padding: 5px 3px;
+  font-size: 15px;
+}
 /* Image */
 
 	.image {
