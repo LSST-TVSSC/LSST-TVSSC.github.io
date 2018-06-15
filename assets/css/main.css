@@ -1871,6 +1871,24 @@ h4, h5, h6 {
 			padding-left: 0.25em;
 		}
 
+	ul.threecol {
+	        -moz-column-count: 3;
+		-moz-column-gap: 20px;
+		-webkit-column-count: 3;
+		-webkit-column-gap: 20px;
+		column-count: 3;
+		column-gap: 20px;
+	}
+
+	ul.references {
+	    text-align: left;
+	}
+	
+	ul.references li {
+	    margin-top: 1em;
+	}	
+
+
 /* Form */
 
 	form label {
