@@ -22,9 +22,37 @@
 					<header id="header">
 						<h1><a href="https://lsst-tvssc.github.io/index.html#top">LSST TVS SC</a></h1>
 						<nav class="links">
-                            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+							<!--
 
-                            <div id="nav"></div></nav>
+								Prologue's nav expects links in one of two formats:
+
+								1. Hash link (scrolls to a different section within the page)
+
+								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
+
+								2. Standard link (sends the user to another page/site)
+
+								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
+
+							-->
+							<ul>
+								<li><a href="https://lsst-tvssc.github.io/index.html#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
+                                <li><a href="https://lsst-tvssc.github.io/subgroups.html" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Subgroups</span></a></li>
+                                <li><a href="https://lsst-tvssc.github.io/members.html" id="members-link" class="skel-layers-ignoreHref"><span class="icon fa-user">Members and roles</span></a></li>
+
+								<li><a href="https://lsst-tvssc.github.io/index.html#taskForces" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Task Forces</span></a></li>
+
+								<li><a href="https://drive.google.com/drive/folders/1PVaUMowhT3SWytLrL5VzNqYUK5RYRP3x?usp=sharing" id="members-link" class="skel-layers-ignoreHref"><span class="icon fa-file">Documents</span></a></li>
+
+								<li><a href="https://lsst-tvssc.github.io/index.html#events" id="members-link" class="skel-layers-ignoreHref"><span class="icon fa-calendar">Events</span></a></li>
+
+                                <li><a href="https://tvs.science.lsst.org/apply" id="application-link" class="skel-layers-ignoreHref"><span class="icon fa-edit">Become a member</span></a></li>
+
+                                <li><a href="https://lsst-tvssc.github.io/index.html#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact us</span></a></li>
+							</ul>
+						</nav>
+							<!--
+							-->
 						<nav class="main">
 							<ul>
 								<li class="search">
@@ -51,34 +79,7 @@
 							</section>
 
 						<!-- Links -->
-							<section>
-								<ul class="links">
-									<li>
-										<a href="#">
-											<h3>Lorem ipsum</h3>
-											<p>Feugiat tempus veroeros dolor</p>
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											<h3>Dolor sit amet</h3>
-											<p>Sed vitae justo condimentum</p>
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											<h3>Feugiat veroeros</h3>
-											<p>Phasellus sed ultricies mi congue</p>
-										</a>
-									</li>
-									<li>
-										<a href="#">
-											<h3>Etiam sed consequat</h3>
-											<p>Porta lectus amet ultricies</p>
-										</a>
-									</li>
-								</ul>
-							</section>
+							
 
 						<!-- Actions -->
 							<section>
@@ -96,15 +97,13 @@
 							<article class="post">
 								<header>
 									<div class="title">
-										<h2><a href="single.html"></a></h2>
-										<p>The TVS SC</p>
+										<h2>The TVS SC<a href="single.html"></a></h2>
+										<p></p>
 									</div>
-									<div class="meta">
-										
-									</div>
+									
 								</header>
 								<a href="single.html" class="image featured"><img src="images/banner.png" alt="" /></a>
-								<p>The Rubin Legacy Survey of Space and Time (LSST) Transients and Variable (TVS) Stars Collaboration focuses on the study of the transient and variable sky through the LSST data, including a large and diverse range of phenomena: variable events, periodic or not, explosive and eruptive transients, and geometric transients (e.g. eclipsing binaries and planets). Variability is a tell tale of the nature of the objects observed, but it also enables galactic studies (the mapping of the galactic structure), extragalactic studies (the characterization of the intracluster medium), and cosmological studies. Because of their physical and phenomenological diversity, the object we study span a wide range of timescales and present themselves in a range of brightnesses and colors. We work to understand and maximize the potential of LSST in the exploration of the variable and transient sky, one of the <i>4 science drivers of LSST</i>. LSST also holds great potential for discovery of new transient phenomena, especially at the very short and very long time scales.</p>
+								<p>The <a href="https://lsst.org/">Vera C. Rubin Observatory</a> Legacy Survey of Space and Time (LSST) Transients and Variable (TVS) Stars Collaboration focuses on the study of the transient and variable sky through the LSST data, including a large and diverse range of phenomena: variable events, periodic or not, explosive and eruptive transients, and geometric transients (e.g. eclipsing binaries and planets). Variability is a tell tale of the nature of the objects observed, but it also enables galactic studies (the mapping of the galactic structure), extragalactic studies (the characterization of the intracluster medium), and cosmological studies. Because of their physical and phenomenological diversity, the object we study span a wide range of timescales and present themselves in a range of brightnesses and colors. We work to understand and maximize the potential of <a href="https://ui.adsabs.harvard.edu/abs/2019ApJ...873..111I/abstract">LSST</a> in the exploration of the variable and transient sky, one of the <a href="https://www.lsst.org/science">4 science drivers of LSST</a>. LSST also holds great potential for discovery of new transient phenomena, especially at the very short and very long time scales.</p>
 								<footer>
 									<ul class="actions">
 										<li><a href="single.html" class="button large">Continue Reading</a></li>
@@ -121,7 +120,7 @@
 										<p> A collaboratively written statement of values for the TVS SC</p>
 									</div>
 									<div class="meta">
-										<time class="published" datetime="2015-10-25">June 2020</time>
+										<time class="published" datetime="2015-10-25">June 2020</time><a href="#" class="author"><span class="name"></span><img src="images/MEDLogoBLK.jpg" alt="" /></a>
 										
 									</div>
 								</header>
@@ -143,16 +142,17 @@ The leadership of the TVS SC and JEDI are responsible for, and all members are e
 							<article class="post">
 								<header>
 									<div class="title">
-										<h2><a href="single.html">Euismod et accumsan</a></h2>
-										<p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>
+										<h2><a href="single.html">members</a></h2>
+										<p>TVS has over 250 members in 11 countries worldwide</p>
 									</div>
 									<div class="meta">
-										<time class="published" datetime="2015-10-22">October 22, 2015</time>
-										<a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg" alt="" /></a>
+										<time class="published" datetime="2015-10-22">June 2020</time>
+										<a href="#" class="author"><span class="name"></span><img src="images/MEDLogoBLK.jpg" alt="" /></a>
 									</div>
 								</header>
-								<a href="single.html" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-								<p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Cras vehicula tellus eu ligula viverra, ac fringilla turpis suscipit. Quisque vestibulum rhoncus ligula.</p>
+								<a href="subgroups.html" class="image featured"><img src="images/map.png" alt="" /></a>
+								<p>We are an international organization with members in 5 continents. Our collaboration is organized in
+                                15 groups with common expertise and interests, that are delineating a roadmap to maximize the potential of the LSST survey in the discovery and characterization of the transient sky.</p>
 								<footer>
 									<ul class="actions">
 										<li><a href="single.html" class="button large">Continue Reading</a></li>
@@ -161,324 +161,37 @@ The leadership of the TVS SC and JEDI are responsible for, and all members are e
 								</footer>
 							</article>
 
-						<!-- Post -->
-						<!--
-							<article class="post">
-								<header>
-									<div class="title">
-										<h2><a href="#">Elements</a></h2>
-										<p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>
+				
+<!-- Contact -->
+					<article class="post">
+									<div class="title" id=contact>
+								
+
+							<header>
+								<h2>Contact</h2>
+							</header>
+
+							<p>Contact us for more information <br>a message will be sent to the co-chairs Rachel Street and Federica Bianco</p>
+
+							<form method="post" action="https://formspree.io/fedhere@gmail.com">
+
+                                <div class="row">
+									<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
+									<div class="6u$ 12u$(mobile)"><input type="email" name="email" placeholder="Email" /></div>
+									<div class="12u$">
+										<textarea name="message" placeholder="Message"></textarea>
 									</div>
-									<div class="meta">
-										<time class="published" datetime="2015-10-18">October 18, 2015</time>
-										<a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg" alt="" /></a>
+									<div class="12u$">
+										<input type="submit" value="Send Message" />
 									</div>
-								</header>
+								</div>
+                                        </form></div>
+                                        </article>
+		
 
-								<section>
-									<h3>Text</h3>
-									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-									<hr />
-									<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-									<hr />
-									<h2>Heading Level 2</h2>
-									<h3>Heading Level 3</h3>
-									<h4>Heading Level 4</h4>
-									<hr />
-									<h4>Blockquote</h4>
-									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-									<h4>Preformatted</h4>
-									<pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-  print 'Iteration ' + i;
-  deck.shuffle();
-  i++;
-}
-
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-								</section>
-
-								<section>
-									<h3>Lists</h3>
-									<div class="row">
-										<div class="col-6 col-12-medium">
-											<h4>Unordered</h4>
-											<ul>
-												<li>Dolor pulvinar etiam.</li>
-												<li>Sagittis adipiscing.</li>
-												<li>Felis enim feugiat.</li>
-											</ul>
-											<h4>Alternate</h4>
-											<ul class="alt">
-												<li>Dolor pulvinar etiam.</li>
-												<li>Sagittis adipiscing.</li>
-												<li>Felis enim feugiat.</li>
-											</ul>
-										</div>
-										<div class="col-6 col-12-medium">
-											<h4>Ordered</h4>
-											<ol>
-												<li>Dolor pulvinar etiam.</li>
-												<li>Etiam vel felis viverra.</li>
-												<li>Felis enim feugiat.</li>
-												<li>Dolor pulvinar etiam.</li>
-												<li>Etiam vel felis lorem.</li>
-												<li>Felis enim et feugiat.</li>
-											</ol>
-											<h4>Icons</h4>
-											<ul class="icons">
-												<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-												<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-												<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-												<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-											</ul>
-										</div>
-									</div>
-									<h3>Actions</h3>
-									<div class="row">
-										<div class="col-6 col-12-medium">
-											<ul class="actions">
-												<li><a href="#" class="button">Default</a></li>
-												<li><a href="#" class="button">Default</a></li>
-												<li><a href="#" class="button">Default</a></li>
-											</ul>
-											<ul class="actions small">
-												<li><a href="#" class="button small">Small</a></li>
-												<li><a href="#" class="button small">Small</a></li>
-												<li><a href="#" class="button small">Small</a></li>
-											</ul>
-											<ul class="actions stacked">
-												<li><a href="#" class="button">Default</a></li>
-												<li><a href="#" class="button">Default</a></li>
-												<li><a href="#" class="button">Default</a></li>
-											</ul>
-											<ul class="actions stacked">
-												<li><a href="#" class="button small">Small</a></li>
-												<li><a href="#" class="button small">Small</a></li>
-												<li><a href="#" class="button small">Small</a></li>
-											</ul>
-										</div>
-										<div class="col-6 col-12-medium">
-											<ul class="actions stacked">
-												<li><a href="#" class="button fit">Default</a></li>
-												<li><a href="#" class="button fit">Default</a></li>
-											</ul>
-											<ul class="actions stacked">
-												<li><a href="#" class="button small fit">Small</a></li>
-												<li><a href="#" class="button small fit">Small</a></li>
-											</ul>
-										</div>
-									</div>
-								</section>
-
-								<section>
-									<h3>Table</h3>
-									<h4>Default</h4>
-									<div class="table-wrapper">
-										<table>
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-
-									<h4>Alternate</h4>
-									<div class="table-wrapper">
-										<table class="alt">
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-								</section>
-
-								<section>
-									<h3>Buttons</h3>
-									<ul class="actions">
-										<li><a href="#" class="button large">Large</a></li>
-										<li><a href="#" class="button">Default</a></li>
-										<li><a href="#" class="button small">Small</a></li>
-									</ul>
-									<ul class="actions fit">
-										<li><a href="#" class="button fit">Fit</a></li>
-										<li><a href="#" class="button fit">Fit</a></li>
-										<li><a href="#" class="button fit">Fit</a></li>
-									</ul>
-									<ul class="actions fit small">
-										<li><a href="#" class="button fit small">Fit + Small</a></li>
-										<li><a href="#" class="button fit small">Fit + Small</a></li>
-										<li><a href="#" class="button fit small">Fit + Small</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-										<li><a href="#" class="button icon solid fa-upload">Icon</a></li>
-										<li><a href="#" class="button icon solid fa-save">Icon</a></li>
-									</ul>
-									<ul class="actions">
-										<li><span class="button disabled">Disabled</span></li>
-										<li><span class="button disabled icon solid fa-download">Disabled</span></li>
-									</ul>
-								</section>
-
-								<section>
-									<h3>Form</h3>
-									<form method="post" action="#">
-										<div class="row gtr-uniform">
-											<div class="col-6 col-12-xsmall">
-												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
-											</div>
-											<div class="col-6 col-12-xsmall">
-												<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
-											</div>
-											<div class="col-12">
-												<select name="demo-category" id="demo-category">
-													<option value="">- Category -</option>
-													<option value="1">Manufacturing</option>
-													<option value="1">Shipping</option>
-													<option value="1">Administration</option>
-													<option value="1">Human Resources</option>
-												</select>
-											</div>
-											<div class="col-4 col-12-small">
-												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-												<label for="demo-priority-low">Low</label>
-											</div>
-											<div class="col-4 col-12-small">
-												<input type="radio" id="demo-priority-normal" name="demo-priority">
-												<label for="demo-priority-normal">Normal</label>
-											</div>
-											<div class="col-4 col-12-small">
-												<input type="radio" id="demo-priority-high" name="demo-priority">
-												<label for="demo-priority-high">High</label>
-											</div>
-											<div class="col-6 col-12-small">
-												<input type="checkbox" id="demo-copy" name="demo-copy">
-												<label for="demo-copy">Email me a copy</label>
-											</div>
-											<div class="col-6 col-12-small">
-												<input type="checkbox" id="demo-human" name="demo-human" checked>
-												<label for="demo-human">Not a robot</label>
-											</div>
-											<div class="col-12">
-												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-											</div>
-											<div class="col-12">
-												<ul class="actions">
-													<li><input type="submit" value="Send Message" /></li>
-													<li><input type="reset" value="Reset" /></li>
-												</ul>
-											</div>
-										</div>
-									</form>
-								</section>
-
-								<section>
-									<h3>Image</h3>
-									<h4>Fit</h4>
-									<div class="box alt">
-										<div class="row gtr-uniform">
-											<div class="col-12"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-											<div class="col-4"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-											<div class="col-4"><span class="image fit"><img src="images/pic05.jpg" alt="" /></span></div>
-											<div class="col-4"><span class="image fit"><img src="images/pic06.jpg" alt="" /></span></div>
-											<div class="col-4"><span class="image fit"><img src="images/pic06.jpg" alt="" /></span></div>
-											<div class="col-4"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-											<div class="col-4"><span class="image fit"><img src="images/pic05.jpg" alt="" /></span></div>
-											<div class="col-4"><span class="image fit"><img src="images/pic05.jpg" alt="" /></span></div>
-											<div class="col-4"><span class="image fit"><img src="images/pic06.jpg" alt="" /></span></div>
-											<div class="col-4"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-										</div>
-									</div>
-									<h4>Left &amp; Right</h4>
-									<p><span class="image left"><img src="images/pic07.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-									<p><span class="image right"><img src="images/pic04.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-								</section>
-
-							</article>
-						-->
 
 						<!-- Pagination -->
-							<ul class="actions pagination">
-								<li><a href="" class="disabled button large previous">Previous Page</a></li>
-								<li><a href="#" class="button large next">Next Page</a></li>
-							</ul>
+							
 
 					</div>
 
@@ -501,101 +214,148 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 									<!-- Mini Post -->
 										<article class="mini-post">
 											<header>
-												<h3><a href="single.html">Vitae sed condimentum</a></h3>
-												<time class="published" datetime="2015-10-20">October 20, 2015</time>
-												<a href="#" class="author"><img src="images/avatar.jpg" alt="" /></a>
+												<h3><a href="https://iopscience.iop.org/article/10.3847/2515-5172/ab812a">March 2020</a></h3>
+												<time class="published" datetime="2015-10-20">Impact of Rubin Observatory LSST Template Acquisition Strategies on Early Science from the Transients and Variable Stars Science Collaboration: Time-critical Science Cases</time>
+												
 											</header>
-											<a href="single.html" class="image"><img src="images/pic04.jpg" alt="" /></a>
+											<a href="single.html" class="image"><img src="images/rnaas2020_1.png" alt="" /></a>
 										</article>
 
 									<!-- Mini Post -->
 										<article class="mini-post">
 											<header>
-												<h3><a href="single.html">Rutrum neque accumsan</a></h3>
-												<time class="published" datetime="2015-10-19">October 19, 2015</time>
-												<a href="#" class="author"><img src="images/avatar.jpg" alt="" /></a>
+												<h3><a href="https://iopscience.iop.org/article/10.3847/2515-5172/ab8129">March 2020</a></h3>
+												<time class="published" datetime="2015-10-19">Impact of Rubin Observatory LSST Template Acquisition Strategies on Early Science from the Transients and Variable Stars Science Collaboration: Non-time-critical Science Cases</time>
+												
 											</header>
-											<a href="single.html" class="image"><img src="images/pic05.jpg" alt="" /></a>
+											<a href="single.html" class="image"><img src="images/rnaas2020_2.png" alt="" /></a>
 										</article>
 
-									<!-- Mini Post -->
-										<article class="mini-post">
-											<header>
-												<h3><a href="single.html">Odio congue mattis</a></h3>
-												<time class="published" datetime="2015-10-18">October 18, 2015</time>
-												<a href="#" class="author"><img src="images/avatar.jpg" alt="" /></a>
-											</header>
-											<a href="single.html" class="image"><img src="images/pic06.jpg" alt="" /></a>
-										</article>
-
-									<!-- Mini Post -->
-										<article class="mini-post">
-											<header>
-												<h3><a href="single.html">Enim nisl veroeros</a></h3>
-												<time class="published" datetime="2015-10-17">October 17, 2015</time>
-												<a href="#" class="author"><img src="images/avatar.jpg" alt="" /></a>
-											</header>
-											<a href="single.html" class="image"><img src="images/pic07.jpg" alt="" /></a>
-										</article>
+									
 
 								</div>
 							</section>
 
 						<!-- Posts List -->
-							<section>
-								<ul class="posts">
-									<li>
+							<section>    
+                                <ul class="posts">    
+									<li>       
+										
 										<article>
 											<header>
-												<h3><a href="single.html">Lorem ipsum fermentum ut nisl vitae</a></h3>
-												<time class="published" datetime="2015-10-20">October 20, 2015</time>
-											</header>
-											<a href="single.html" class="image"><img src="images/pic08.jpg" alt="" /></a>
-										</article>
-									</li>
-									<li>
+												<h3>Fast Transients
+
+                            </h3>
+                            primary contacts: 
+                                                <a href="https://users.obs.carnegiescience.edu/mdrout/">Maria Drout</a>, Carnegie-Dunlap</header><a href="single.html" class="image"><img src="images/pic12.jpg" alt="" /></a>
+                                            <br></article></li>
+                       
+                            <li>
 										<article>
 											<header>
-												<h3><a href="single.html">Convallis maximus nisl mattis nunc id lorem</a></h3>
-												<time class="published" datetime="2015-10-15">October 15, 2015</time>
-											</header>
-											<a href="single.html" class="image"><img src="images/pic09.jpg" alt="" /></a>
-										</article>
-									</li>
-									<li>
+												 <h3>Interacting Binaries
+                            </h3>
+                            primary contacts:  <br>
+                            <a href="http://clusty.ast.villanova.edu/aprsa/">Andrej Prsa</a>, Villanova
+                            <a href="http://depts.washington.edu/astron/profile/szkody-paula/">Paula Szkody</a>, UW</header><a href="single.html" class="image"><img src="images/pic12.jpg" alt="" /></a>
+                                            <br></article></li>
+                       
+                            <li>
 										<article>
 											<header>
-												<h3><a href="single.html">Euismod amet placerat vivamus porttitor</a></h3>
-												<time class="published" datetime="2015-10-10">October 10, 2015</time>
-											</header>
-											<a href="single.html" class="image"><img src="images/pic10.jpg" alt="" /></a>
-										</article>
-									</li>
-									<li>
+										<h3><a href="subgroup_magstars.html">Magnetically Active Stars</a>
+                            </h3>
+                            primary contacts:  
+			                 <a href="https://staff.ucar.edu/users/egeland">Ricky Egeland</a>, High Altitude Observatory</header><a href="single.html" class="image"><img src="images/pic12.jpg" alt="" /></a>
+                                            <br></article></li>
+                       
+                            
+                                                <li>
+				            <article>
+											<header>
+				            <h3><a href="subgroup_microlensing.html">Microlensing Subgroup</a>
+                            </h3>
+                            primary contacts:  
+                             <a href="https://lco.global/user/rstreet/">Rachel Street</a>, LCO
+                             <a href="https://astronomy.fas.harvard.edu/people/rosanne-di-stefano">Rosanne DiStefano</a>, CfA</header><a href="single.html" class="image"><img src="images/pic12.jpg" alt="" /></a>
+                                            <br></article></li>
+                       
+                            <li>
 										<article>
 											<header>
-												<h3><a href="single.html">Magna enim accumsan tortor cursus ultricies</a></h3>
-												<time class="published" datetime="2015-10-08">October 8, 2015</time>
-											</header>
-											<a href="single.html" class="image"><img src="images/pic11.jpg" alt="" /></a>
-										</article>
-									</li>
-									<li>
+												<h3>Multiwavelength Characterization and Counterparts</h3>
+                             primary contacts:  
+                             <a href="http://www.physics.northwestern.edu/people/faculty/core-faculty/raffaella%20margutti.html">Raffaella Margutti</a>, NorthWestern</header><a href="single.html" class="image"><img src="images/pic12.jpg" alt="" /></a>
+                                            <br></article></li>
+                       
+                            <li>
 										<article>
 											<header>
-												<h3><a href="single.html">Congue ullam corper lorem ipsum dolor</a></h3>
-												<time class="published" datetime="2015-10-06">October 7, 2015</time>
-											</header>
-											<a href="single.html" class="image"><img src="images/pic12.jpg" alt="" /></a>
-										</article>
-									</li>
-								</ul>
+												<h3>Non-degenerate Eruptive Variables
+                            </h3>
+                            primary contacts:  <a hreaf="https://www.oa-roma.inaf.it/irgroup/JEDI/JEDI/People.html">Sara Bonito</a>, INAF</header><a href="single.html" class="image"><img src="images/pic12.jpg" alt="" /></a>
+                                            <br></article></li>
+                       
+                            <li>
+										<article>
+											<header>
+												<h3>Pulsating Variables</h3>
+                            primary contacts:
+                             <a href="https://www1.villanova.edu/villanova/artsci/astronomy/meet_us.html?mail=kelly.prsa@villanova.edu&xsl=bio_long">Kelly Hambleton</a>, Villanova</header><a href="single.html" class="image"><img src="images/pic12.jpg" alt="" /></a>
+                                            <br></article></li>
+                       
+                            <li>
+										<article>
+											<header>
+												<h3><a href="subgroup_supernovae.html">Supernovae</a></h3>
+                             primary contacts: <a href="http://depts.washington.edu/astron/profile/graham-melissa-l/">Melissa Graham</a>, UW</header><a href="single.html" class="image"><img src="images/pic12.jpg" alt="" /></a>
+                                            <br></article></li>
+                       
+                            <li>
+										<article>
+											<header>
+												<h3><a href="subgroup_tde.html">Tidal Disruption Events</a></h3>
+                             primary contacts:  <a hreaf="https://cosmo.nyu.edu/sjoert/">Sjoert van Velzen</a>, NYU/UMD/UvA</header><a href="single.html" class="image"><img src="images/pic12.jpg" alt="" /></a>
+                                            <br></article></li>
+                       
+                            <li>
+										<article>
+											<header>
+												<h3>Transiting Planets</h3>
+                            primary contacts:  <a href="http://astro.phy.vanderbilt.edu/~lundmb/">Michael Lund</a>,
+				Vanderbilt</header><a href="single.html" class="image"><img src="images/pic12.jpg" alt="" /></a>
+                                            <br></article></li>
+                       
+                            <li>
+
+        
+                    <h2>currently inactive subgroups</h2>
+                    <div class="grid-container2">
+
+                        <div>
+                            Cosmological
+                            <br>
+                        </div>
+                         <div>
+                             Classification/Characterization
+                             <br>
+                        </div>
+                         <div>
+                             Distance Scale
+                             <br>
+                        </div>
+                        <div>
+                             Galactic
+                            <br>
+                        </div>
+                    </div>
+                                    </li></ul>
 							</section>
 
 						<!-- About -->
 							<section class="blurb">
 								<h2>About</h2>
-								<p>The LSST Transients and Variable Stars Collaboration focuses on the transient sky, including a large and diverse range of phenomena: variable events, periodic or not, explosive and eruptive transients, and geometric transients (e.g. eclipsing binaries and planets). Variability is a tell tale of the nature of the objects observed, but it also enables galactic studies (the mapping of the galactic structure), extragalactic studies (the characterization of the intracluster medium), and cosmological studies. Because of their physical and phenomenological diversity, the object we study span a wide range of timescales and present themselves in a range of brightnesses and colors. We work to understand and maximize the potential of LSST in the exploration of the variable and transient sky, one of the <i>4 science drivers of LSST</i>. LSST also holds great potential for discovery of new transient phenomena, especially at the very short and very long time scales.</p>
+                                <p>TVS is a <a href="https://lsst.org/">Vera C. Rubin Observatory</a> Legacy Survey of Space and Time <a href="https://www.lsstcorporation.org/science-collaborations">Science Collaboration </a> (SC). Our SC is a group focuses preparing to study the transient and variable sky with the revolutionary Legacy Survey of Space and Time  (LSST).</p>
 								<ul class="actions">
 									<li><a href="#" class="button">Learn More</a></li>
 								</ul>

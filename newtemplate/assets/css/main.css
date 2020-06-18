@@ -170,6 +170,7 @@ input, select, textarea {
 		transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		border-bottom: dotted 1px rgba(160, 160, 160, 0.65);
 		color: inherit;
+        color: #2ebaae 
 		text-decoration: none;
 	}
 
@@ -177,6 +178,7 @@ input, select, textarea {
 			-moz-transition: color 0.2s ease;
 			-webkit-transition: color 0.2s ease;
 			-ms-transition: color 0.2s ease;
+            
 			transition: color 0.2s ease;
 		}
 
@@ -1831,6 +1833,142 @@ input, select, textarea {
 	.blurb p {
 		font-size: 0.9em;
 	}
+/* chairs */
+/* Sections/Article */
+
+	section, article2 {
+		margin-bottom: 3em;
+        
+	}
+
+		section > :last-child,
+		section > .container, section:last-child, article > :last-child,
+		article > .container, article:last-child {
+			margin-bottom: 0;
+		}
+
+		.row > section, .row > article {
+			margin-bottom: 0;
+		}
+/* Round avatar */
+.avatar {
+    float: center;
+    margin-top: 1em;
+    margin-right: 1em;
+    position: relative;
+
+    -webkit-border-radius: 50%;
+    -moz-border-radius: -50%;
+    border-radius: 50%;
+
+    -webkit-box-shadow: 0 0 0 0px #fff, 0 0 0 0px #999;
+}
+.grid-container-chairs {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+
+}
+.grid-container-chairs > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.grid-container4 {
+  display: grid;
+  border: 0px solid black;
+  grid-template-columns: auto auto auto auto ;
+  grid-gap: 10px;
+  padding: 10px;
+
+}
+.grid-container4 > div {
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid #aaa;
+  padding: 20px 10px;
+  font-size: 15px;
+}
+.grid-container2 {
+  display: grid;
+  grid-template-columns: auto auto;  
+  grid-gap: 10px;
+  padding: 10px;
+
+}
+.grid-container2 > div {
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid #aaa;
+  padding: 20px 0;
+  font-size: 15px;
+}
+.grid-container4_2 {
+  display: grid;
+  border: 0px solid black;
+  grid-template-columns: auto auto auto auto ;
+  grid-gap: 10px;
+  padding: 10px;
+
+}
+.grid-container4_2 > div {
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid #aaa;
+  padding: 5px 3px;
+  font-size: 15px;
+}
+/* Image */
+
+	.image {
+		display: inline-block;
+		border: 0;
+	}
+
+		.image img {
+			display: block;
+			width: 100%;
+		}
+
+		.image.avatar48 {
+			width: 181px;
+			height: 75px;
+			background: #708EA9;
+		}
+
+			.image.avatar48 img {
+				width: 181px;
+				height: 75px;
+                
+			}
+
+		.image.fit {
+			display: block;
+			width: 100%;
+		}
+
+		.image.featured {
+			display: block;
+			width: 100%;
+			margin: 0 0 2em 0;
+		}
+
+		.image.left {
+			float: left;
+			margin: 0 2em 2em 0;
+		}
+
+		.image.centered {
+			display: block;
+			margin: 0 0 20em 0;
+		}
+
+			.image.centered img {
+				margin: 0 auto;
+				width: auto;
+			}
 
 /* Box */
 
@@ -3031,7 +3169,7 @@ input, select, textarea {
 	header p {
 		font-family: "Raleway", Helvetica, sans-serif;
 		font-size: 0.7em;
-		font-weight: 400;
+		font-weight: 800;
 		letter-spacing: 0.25em;
 		line-height: 2.5;
 		margin-top: -1em;
@@ -3192,6 +3330,7 @@ input, select, textarea {
 					font-weight: 400;
 					letter-spacing: 0.25em;
 					text-transform: uppercase;
+                    font-weight: 600;
 				}
 
 		#header .main {
@@ -3555,6 +3694,7 @@ input, select, textarea {
 		#menu .links {
 			list-style: none;
 			padding: 0;
+            
 		}
 
 			#menu .links > li {
