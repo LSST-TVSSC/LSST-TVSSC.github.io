@@ -1,0 +1,8 @@
+Name: Member Name  
+Email: someone@somewhere.whatever
+Affiliation: Some University
+Extra Info or whatever:
+ - Fast Transients
+  - Galactic
+  - Supernovae Subgroup
+

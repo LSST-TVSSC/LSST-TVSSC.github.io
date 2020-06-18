@@ -1,0 +1,17 @@
+word1,word2,count
+Multiwavelength\ Characterization/Counterparts,Multiwavelength\ Characterization/Counterparts,0
+Multiwavelength\ Characterization/Counterparts,Non-degenerate\ Eruptive\ Variables,0,
+Multiwavelength\ Characterization/Counterparts,Supernovae,2
+Multiwavelength\ Characterization/Counterparts,Classification/Characterization,0,
+Non-degenerate\ Eruptive\ Variables,Multiwavelength\ Characterization/Counterparts,0,
+Non-degenerate\ Eruptive\ Variables,Non-degenerate\ Eruptive\ Variables,0
+Non-degenerate\ Eruptive\ Variables,Supernovae,0,
+Non-degenerate\ Eruptive\ Variables,Classification/Characterization,2
+Supernovae,Multiwavelength\ Characterization/Counterparts,0,
+Supernovae,Non-degenerate\ Eruptive\ Variables,0,
+Supernovae,Supernovae,0
+Supernovae,Classification/Characterization,1
+Classification/Characterization,Multiwavelength\ Characterization/Counterparts,0,
+Classification/Characterization,Non-degenerate\ Eruptive\ Variables,0,
+Classification/Characterization,Supernovae,0,
+Classification/Characterization,Classification/Characterization,0
