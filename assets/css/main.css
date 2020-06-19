@@ -2757,6 +2757,18 @@ input, select, textarea {
 				ul.posts article header > :last-child {
 					margin-bottom: 0;
 				}
+.avatar {
+    float: center;
+    margin-top: 1em;
+    margin-right: 3em;
+    position: relative;
+
+    -webkit-border-radius: 50%;
+    -moz-border-radius: -50%;
+    border-radius: 50%;
+
+    -webkit-box-shadow: 0 0 0 0px #fff, 0 0 0 0px #999;
+}
 
 /* Mini Post */
 
