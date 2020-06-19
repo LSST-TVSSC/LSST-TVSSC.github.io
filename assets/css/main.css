@@ -1855,7 +1855,7 @@ input, select, textarea {
     float: center;
     margin-top: 1em;
     margin-right: 15em;
-    margin-left: 15em;
+    margin-left: 1em;
     position: relative;
 
     -webkit-border-radius: 50%;
