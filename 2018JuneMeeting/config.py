@@ -1,1 +1,1 @@
-/Users/fbianco 1 2/LSST-TVTSSC.github.io/TVSaffiliations/config.py
+tvsfile = '1Q8YPGxh-Ebs02ykfGypj7oThQrgqKzrU6qyIuPT3bhY'
