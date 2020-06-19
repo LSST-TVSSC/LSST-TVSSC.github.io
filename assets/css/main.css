@@ -1811,7 +1811,8 @@ input, select, textarea {
 		.author img {
 			border-radius: 100%;
 			display: block;
-			width: 10em;
+			width: 8em;
+            margin-right: 2em;
 		}
 
 		.author:hover .name {
@@ -1853,7 +1854,8 @@ input, select, textarea {
 .avatar {
     float: center;
     margin-top: 1em;
-    margin-right: 1em;
+    margin-right: 15em;
+    margin-left: 15em;
     position: relative;
 
     -webkit-border-radius: 50%;
@@ -3093,7 +3095,7 @@ input, select, textarea {
 							}
 
 							.post > header .meta .author img {
-								width: 3.5em;
+								width: 2.5em;
 							}
 
 		}
