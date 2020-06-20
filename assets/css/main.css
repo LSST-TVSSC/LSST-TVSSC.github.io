@@ -3765,3 +3765,8 @@ input, select, textarea {
 			}
 
 		}
+
+#nav ul li a.active {
+        color: inherit;
+        font-weight: bold;
+    }

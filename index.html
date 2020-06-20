@@ -22,40 +22,15 @@
 					<header id="header">
 						<h1><a href="https://lsst-tvssc.github.io/index.html#top">LSST TVS SC</a></h1>
 						<nav class="links">
-							<!--
+							
+						<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 
-								Prologue's nav expects links in one of two formats:
-
-								1. Hash link (scrolls to a different section within the page)
-
-								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
-
-								2. Standard link (sends the user to another page/site)
-
-								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
-
-							-->
-							<ul>
-								<li><a href="index.html#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
-                                
-                                <li><a href="members.html" id="members-link" class="skel-layers-ignoreHref"><span class="icon fa-user">Members and roles</span></a></li>
-
-								<li><a href="subgroups.html" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Subgroups</span></a></li>
-                                
-                                <li><a href="taskForces.html" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Task Forces</span></a></li>
-                                
-								<li><a href="https://drive.google.com/drive/folders/1PVaUMowhT3SWytLrL5VzNqYUK5RYRP3x?usp=sharing" id="members-link" class="skel-layers-ignoreHref"><span class="icon fa-file">Documents</span></a></li>
-
-								<li><a href="events.html" target="_blank" id="members-link" class="skel-layers-ignoreHref"><span class="icon fa-calendar">Events</span></a></li>
-
-                                <li><a href="https://tvs.science.lsst.org/apply" id="application-link" class="skel-layers-ignoreHref"><span class="icon fa-edit">Become a member</span></a></li>
-
-                                <li><a href="index.html#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact us</span></a></li>
-							</ul>
+                            <div id="nav"></div>
+	
 						</nav>
 							<!--
 							-->
-						<nav class="main">
+							<nav class="main">
 							<ul>
 								<li class="search">
 									<a class="fa-search" href="#search">Search</a>
@@ -72,20 +47,16 @@
 
 				<!-- Menu -->
 					<section id="menu">
-
-						<!-- Search -->
+                        <!-- Search -->
 							<section>
 								<form class="search" method="get" action="#">
 									<input type="text" name="query" placeholder="Search" />
 								</form>
 							</section>
-
-						<!-- Links -->
-							
-
-						<!-- Actions -->
+                        
+						<!-- Search -->
 							<section>
-                                <ul>
+                               <ul>
 								<li><a href="index.html#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
                                 
                                 <li><a href="members.html" id="members-link" class="skel-layers-ignoreHref"><span class="icon fa-user">Members and roles</span></a></li>
@@ -101,14 +72,15 @@
                                 <li><a href="https://tvs.science.lsst.org/apply" id="application-link" class="skel-layers-ignoreHref"><span class="icon fa-edit">Become a member</span></a></li>
 
                                 <li><a href="index.html#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact us</span></a></li>
-							
-				
-								
-									<li><a href="#" class="button large fit">Log In</a></li>
 								</ul>
+                                <a href="#" class="button large fit">Log In</a>
+								
 							</section>
 
-					</section>
+						<!-- Links -->
+
+                </section>
+				
 
 				<!-- Main -->
 					<div id="main">
@@ -126,7 +98,7 @@
 								<p>The <a href="https://lsst.org/">Vera C. Rubin Observatory</a> Legacy Survey of Space and Time (LSST) Transients and Variable (TVS) Stars Collaboration focuses on the study of the transient and variable sky through the LSST data, including a large and diverse range of phenomena: variable events, periodic or not, explosive and eruptive transients, and geometric transients (e.g. eclipsing binaries and planets). Variability is a tell tale of the nature of the objects observed, but it also enables galactic studies (the mapping of the galactic structure), extragalactic studies (the characterization of the intracluster medium), and cosmological studies. Because of their physical and phenomenological diversity, the object we study span a wide range of timescales and present themselves in a range of brightnesses and colors. We work to understand and maximize the potential of <a href="https://ui.adsabs.harvard.edu/abs/2019ApJ...873..111I/abstract">LSST</a> in the exploration of the variable and transient sky, one of the <a href="https://www.lsst.org/science">4 science drivers of LSST</a>. LSST also holds great potential for discovery of new transient phenomena, especially at the very short and very long time scales.</p>
 								<footer>
 									<ul class="actions">
-										<li><a href="index.html#top" class="button large">Continue Reading</a></li>
+										<li><a href="gettingstarted.html" target=_blank class="button large">Continue Reading</a></li>
 									</ul>
 									
 								</footer>
@@ -152,7 +124,8 @@
                                 </p>
 								<footer>
 									<ul class="actions">
-										<li><a href="calltoaction.html" class="button large">Continue Reading</a></li>
+										<li><a href="calltoaction.html" 
+                                               target=_blank class="button large">Continue Reading</a></li>
 									</ul>
 									
 								</footer>

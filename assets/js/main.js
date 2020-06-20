@@ -3,6 +3,23 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+$(function() {
+
+    $("#nav").load("menu.html");
+
+    function activeNav() {
+        var pgurl = window.location.href.substr(window.location.href.lastIndexOf("/")+1);
+         $("#nav ul li a").each(function(){
+              if($(this).attr("href") == pgurl || $(this).attr("href") == '' )
+              $(this).addClass("active");
+         });
+    }
+
+    setTimeout(function() {
+        activeNav();
+    }, 100);
+
+});
 
 (function($) {
 
