@@ -1,124 +1,289 @@
-<!DOCTYPE HTML>
-<!--
-	Prologue by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
-    
 	<head>
-		<title>LSST-TVS</title>
+		<title>LSST-TVS members</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+
 	</head>
-	<body>    
+	<body class="is-preload">
 
+		<!-- Wrapper -->
+			<div id="wrapper">
 
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html#top">LSST TVS SC</a></h1>
+						<nav class="links">
+							
+						<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 
-		<!-- Header -->
-			<div id="header">
-
-				<div class="top">
-
-					<!-- Logo -->
-						<div id="logo">
-							<span class="image avatar48"><img src="images/MEDLogoBLK.jpg"subg alt="" /></span>
-							<h1 id="title"> Transients and Variable Stars </h1>
-							<p>LSST Science Collaboration</p>
-						</div>
-
-					<!-- Nav -->
-						<nav id="nav">
+                            <div id="nav"></div>
+	
+						</nav>
 							<!--
-
-								Prologue's nav expects links in one of two formats:
-
-								1. Hash link (scrolls to a different section within the page)
-
-								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
-
-								2. Standard link (sends the user to another page/site)
-
-								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
-
 							-->
+						<nav class="main">
 							<ul>
-								<li><a href="https://lsst-tvssc.github.io/index.html#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
-                                <li><a href="https://lsst-tvssc.github.io/index.html#subgroups" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Subgroups</span></a></li>
-                                <li><a href="https://lsst-tvssc.github.io/index.html#members" id="members-link" class="skel-layers-ignoreHref"><span class="icon fa-user">Members and roles</span></a></li>
-                                
-								<li><a href="https://lsst-tvssc.github.io/index.html#taskForces" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Task Forces</span></a></li>
-								
-								<li><a href="https://lsst-tvssc.github.io/index.html#events" id="members-link" class="skel-layers-ignoreHref"><span class="icon fa-calendar">Events</span></a></li>
-                                
-                                <li><a href="https://tvs.science.lsst.org/apply" id="application-link" class="skel-layers-ignoreHref"><span class="icon fa-edit">Become a member</span></a></li>
-                                
-                                <li><a href="https://lsst-tvssc.github.io/index.html#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact us</span></a></li>
+								<li class="search">
+									<a class="fa-search" href="#search">Search</a>
+									<form id="search" method="get" action="#">
+										<input type="text" name="query" placeholder="Search" />
+									</form>
+								</li>
+								<li class="menu">
+									<a class="fa-bars" href="#menu">Menu</a>
+								</li>
 							</ul>
 						</nav>
+					</header>
 
-				</div>
+				<!-- Menu -->
+					<section id="menu">
+                        <!-- Search -->
+							<section>
+								<form class="search" method="get" action="#">
+									<input type="text" name="query" placeholder="Search" />
+								</form>
+							</section>
+                        
+						<!-- Search -->
+							<section>
+                               <ul>
+								<li><a href="index.html#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
+                                
+                                <li><a href="members.html" id="members-link" class="skel-layers-ignoreHref"><span class="icon fa-user">Members and roles</span></a></li>
 
-				<div class="bottom">
+								<li><a href="subgroups.html" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Subgroups</span></a></li>
+                                
+                                <li><a href="taskForces.html" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Task Forces</span></a></li>
+                                
+								<li><a href="https://drive.google.com/drive/folders/1PVaUMowhT3SWytLrL5VzNqYUK5RYRP3x?usp=sharing" id="members-link" class="skel-layers-ignoreHref"><span class="icon fa-file">Documents</span></a></li>
 
-					<!-- Social Icons -->
-						<ul class="icons">
-							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="https://github.com/LSST-TVSSC" class="icon fa-github"><span class="label">Github</span></a></li>
-							<li><a href="#contact" class="icon fa-envelope"><span class="label">Email</span></a></li>
-						</ul>
+								<li><a href="events.html" id="members-link" class="skel-layers-ignoreHref"><span class="icon fa-calendar">Events</span></a></li>
 
-				</div>
+                                <li><a href="https://tvs.science.lsst.org/apply" id="application-link" class="skel-layers-ignoreHref"><span class="icon fa-edit">Become a member</span></a></li>
 
-			</div>
+                                <li><a href="index.html#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact us</span></a></li>
+								</ul>
+                                <a href="#" class="button large fit">Log In</a>
+								
+							</section>
 
-		<!-- Main -->
-			<div id="main">
+						<!-- Links -->
 
-				<!-- Intro -->
-					<section id="top" class="one dark cover">
-						<div class="container">
+                </section>
 
-							<header>
-								<h2 class="alt">these webpages are a work in progres....</h2>
-                                <h5 class="alt">In the meantime you can find out about us on the <a href="https://tvs.science.lsst.org/">LSST TVS wiki</a></h3>
-							</header>
 
-							
+				<!-- Main -->
+					<div id="main">
 
-						</div>
-					</section>
+						<!-- Post -->
+							<article class="post">
+								<header>
+									<div class="title">
+										<h2>TVS Buidlders and Permanent Data Right Holders</h2>
+										<p></p>
+									
+                                
+				       
+								
 
-				
-				<!-- About Me -->
-					<section id="about" class="three">
-						<div class="container">
-
-							<!--<header>
-								<h2>About Us</h2>
-							</header>
-
-							-->
-
-							<p> This is a list of current TVS members who have reached "builder" status. A TVS SC “builder" is defined as TVS members who contributed significantly through their survey for at least one year to the TVS SC. This includes serving in any of the boards (membership, publication, builders-status board, or policy-review board) or as subgroup coordinator, or as lsst-stack support team, or as spokesperson or in any other active role in a TVS SC task force, as defined by the task force itself. The builder status is achieved by a process of nomination and award, with the final decision resting in the hands of the <i>builder-status board</i>. Simply sitting on a board or any of he bodies specified above does not guarantee the achievement of builder-status. Builders have the right to be asked if they want to be co-authors on TVS publications, as defines in <a href=https://docs.google.com/document/d/1IgZkH1I_DE5TQQVuQmJl3aLnn6p6L4R9NK-JT0VVhRQ/edit?usp=sharing>this document</a>. The builders should not abuse this right, and evaluate if their contribution to TVS has in fact facilitated the publication. Their co-authorship on a paper can be appealed and the publication board is the body who has the right to deny a builder co-authorship on a TVS publication. <br>
+                                <div article>
+                                    <h2>TVS Builders</h2>
+                                
+                                <p> This is a list of current TVS members who have reached "builder" status. A TVS SC “builder" is defined as TVS members who contributed significantly through their survey for at least one year to the TVS SC. This includes serving in any of the boards (membership, publication, builders-status board, or policy-review board) or as subgroup coordinator, or as lsst-stack support team, or as spokesperson or in any other active role in a TVS SC task force, as defined by the task force itself. The builder status is achieved by a process of nomination and award, with the final decision resting in the hands of the <i>builder-status board</i>. Simply sitting on a board or any of he bodies specified above does not guarantee the achievement of builder-status. Builders have the right to be asked if they want to be co-authors on TVS publications, as defines in <a href=https://docs.google.com/document/d/1IgZkH1I_DE5TQQVuQmJl3aLnn6p6L4R9NK-JT0VVhRQ/edit?usp=sharing>this document</a>. The builders should not abuse this right, and evaluate if their contribution to TVS has in fact facilitated the publication. Their co-authorship on a paper can be appealed and the publication board is the body who has the right to deny a builder co-authorship on a TVS publication. <br>
                                 If you want to nominate a TVS SC member for builder status use <a href="https://docs.google.com/forms/d/e/1FAIpQLSdWOQiiw34kG4JZfliDkqgN6ElkOex-Yez1-rUjNVKZYSAz6A/viewform?usp=sf_link">this form</a>.
                                 
                             </p>
+                           
+								<footer>
+									<ul class="stats">
+							
+										
+									</ul>
+                                    </footer></div>
+							</article>
 
-						</div>
-                </section>
-                
-                 <div style="display: inline-block; text-align: left;">
-                     <ul margin-left: 1em;> 
-                         <li><H4>Name, Primary Subgroup </H4></li>
-                         <li></li>
-                     </ul>
-                </div>
+					</div>
+	<!-- Sidebar -->
+					<section id="sidebar">
 
-        </div>
-    </body>
+						<!-- Intro -->
+							<section id="intro">
+								<a href="#" class="logo"><img src="images/MEDLogoBLK.jpg" alt="" /></a>
+								<header>
+									<h2>Rubin LSST Transients and Variable Stars</h2>
+									<p>Science Collaboration</p>
+								</header>
+							</section>
+
+						<!-- Mini Posts -->
+							
+
+						<!-- Posts List -->
+								<section>   
+                                <h2>subgroups</h2>
+                                <ul class="posts">    
+									<li>       
+										
+										<article>
+											<header>
+												<h3>Fast Transients
+
+                                                </h3>
+                                                coordinator: 
+                                                <a href="https://users.obs.carnegiescience.edu/mdrout/">Maria Drout</a>, Carnegie-Dunlap</header>
+                                                <a href="#" class="author"><img src="images/avatar.jpg" alt="" /></a>
+                                            <br></article></li>
+                       
+                                    <li>
+										<article>
+											<header>
+												 <h3>Interacting Binaries
+                                                </h3>
+                                                coordinator:  <br>
+                                                <a href="http://clusty.ast.villanova.edu/aprsa/">Andrej Prsa</a>, Villanova
+                                                <a href="http://depts.washington.edu/astron/profile/szkody-paula/">Paula Szkody</a>, 
+                                                UW</header>
+                                                <a href="#" class="author"><img src="images/avatar.jpg" alt="" /></a>
+                                                <br></article></li>
+                        
+                                                <li>
+										<article>
+											<header>
+										          <h3><a href="subgroups/subgroup_magstars.html">Magnetically Active Stars</a>
+                                                </h3>
+                                                coordinators:  
+                                                <a href="https://staff.ucar.edu/users/egeland">Ricky Egeland</a>, High Altitude Observatory</header>
+                                                <a href="subgroups/subgroup_magstars.html" class="author"><img src="images/avatar.jpg" alt="" /></a>
+                                                <br></article></li>
+                       
+                            
+                                    <li>
+				                        <article>
+											<header>
+                                                <h3><a href="subgroups/subgroup_microlensing.html">Microlensing Subgroup</a>
+                                                </h3>
+                                                coordinators:  
+                                                <a href="https://lco.global/user/rstreet/">Rachel Street</a>, LCO
+                                                <a href="https://astronomy.fas.harvard.edu/people/rosanne-di-stefano">Rosanne DiStefano</a>, CfA</header>
+                                                <a href="subgroups/subgroup_microlensing.html" class="author"><img src="subgroups/images/rstreet-180x180_avatar.png" alt="" /></a>
+                                            <br></article></li>
+                       
+                                <li>
+										<article>
+											<header>
+												<h3>Multiwavelength Characterization and Counterparts</h3>
+                                                coordinators:  
+                                                <a href="http://www.physics.northwestern.edu/people/faculty/core-faculty/raffaella%20margutti.html">Raffaella Margutti</a>, NorthWestern</header>
+                                    <a href="#" class="author"><img src="subgroups/images/Raffaella-Margutti-170x170_avatar.png" alt="" /></a>
+                                                          
+                                    </article></li>
+                                <li>
+										<article>
+											<header>
+												<h3>Non-degenerate Eruptive Variables
+                                                </h3>
+                                                coordinators:  
+                                                <a hreaf="https://www.oa-roma.inaf.it/irgroup/JEDI/JEDI/People.html">Sara Bonito</a>, INAF</header>
+                                                <a href="#" class="author"><img src="images/avatar.jpg" alt="" /></a>
+                                            <br></article></li>
+                       
+                            <li>
+										<article>
+											<header>
+												<h3>Pulsating Variables</h3>
+                                                coordinators:
+                                                <a href="https://www1.villanova.edu/villanova/artsci/astronomy/meet_us.html?mail=kelly.prsa@villanova.edu&xsl=bio_long">Kelly Hambleton</a>, Villanova</header>
+                                                <a href="#" class="author"><img src="images/avatar.jpg" alt="" /></a>
+                                            <br></article></li>
+                       
+                            <li>
+										<article>
+											<header>
+												<h3><a href="subgroups/subgroup_supernovae.html">Supernovae</a></h3>
+                                                coordinators: <a href="http://depts.washington.edu/astron/profile/graham-melissa-l/">Melissa Graham</a>, UW</header>
+                                                <a href="subgroups/subgroup_supernovae.html" class="author"><img src="images/avatar.jpg" alt="" /></a>
+                                            <br></article></li>
+                       
+                            <li>
+										<article>
+											<header>
+												<h3><a href="subgroups/subgroup_tde.html">Tidal Disruption Events</a></h3>
+                                                coordinators:  <a hreaf="https://cosmo.nyu.edu/sjoert/">Sjoert van Velzen</a>, NYU/UMD/UvA</header>
+                                                <a href="subgroups/subgroup_tde.html" class="author"><img src="images/avatar.jpg" alt="" /></a>
+                                            <br></article></li>
+                       
+                            <li>
+										<article>
+											<header>
+												<h3>Transiting Planets</h3>
+                                                coordinators:  <a href="http://astro.phy.vanderbilt.edu/~lundmb/">Michael Lund</a>,
+				                                JPL</header>
+                                                <a href="#" class="author"><img src="images/avatar.jpg" alt="" /></a>
+                                            <br></article></li>
+                       
+                            <li>
+                    <h2>currently inactive subgroups</h2>
+                    <div class="grid-container2">
+
+                        <div>
+                            Cosmological
+                            <br>
+                        </div>
+                         <div>
+                             Classification/Characterization
+                             <br>
+                        </div>
+                         <div>
+                             Distance Scale
+                             <br>
+                        </div>
+                        <div>
+                             Galactic
+                            <br>
+                        </div>
+                    </div>
+                                    </li></ul>
+							</section>
+
+						<!-- About -->
+							<section class="blurb">
+                                
+            
+                                
+                                
+								<h2>About</h2>
+                                <p>TVS is a <a href="https://lsst.org/">Vera C. Rubin Observatory</a> Legacy Survey of Space and Time <a href="https://www.lsstcorporation.org/science-collaborations">Science Collaboration </a> (SC). Our SC is a group focuses preparing to study the transient and variable sky with the revolutionary Legacy Survey of Space and Time  (LSST).</p>
+								<ul class="actions">
+									<li><a href="index.html" class="button">Learn More</a></li>
+								</ul>
+							</section>
+
+						<!-- Footer -->
+							<section id="footer">
+								<ul class="icons">
+									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							         <li><a href="https://github.com/LSST-TVSSC" class="icon brands fa-github"><span class="label">Github</span></a></li>
+                                    <li><a href="#contact" class="icon fa-envelope"><span class="label">Email</span></a></li>
+								</ul>
+								<p class="copyright">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>. Images: <a href="http://unsplash.com">Unsplash</a>.</p>
+							</section>
+
+					</section>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
+
+							
+							
