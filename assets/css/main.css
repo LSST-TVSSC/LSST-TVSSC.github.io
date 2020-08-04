@@ -2090,6 +2090,15 @@ input, select, textarea {
 			padding: 0 3em;
 		}
 
+        input[type="submit"].xlarge,
+		input[type="reset"].xlarge,
+		input[type="button"].xlarge,
+		button.xlarge,
+		.button.xlarge {
+			font-size: 0.1em;
+			width: 100%
+		}
+
 		input[type="submit"].small,
 		input[type="reset"].small,
 		input[type="button"].small,
