@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "html-midi-player": "^1.5.0"
+  }
+}
