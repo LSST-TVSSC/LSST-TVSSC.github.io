@@ -6,10 +6,13 @@
 -->
 <html>
 	<head>
+        
 		<title>Rubin Rhapsodies - alpha version</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        
 		<link rel="stylesheet" href="assets/css/main.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
         
         <script src="https://cdn.jsdelivr.net/combine/npm/tone@14.7.58,npm/@magenta/music@1.23.1/es6/core.js,npm/focus-visible@5,npm/html-midi-player@1.5.0"></script>
 
@@ -23,38 +26,36 @@
         border-radius: 10px;
       }
     </style>
+        
+        <script> 
+            $(function(){
+                $("#includedContent").load("./navbar.html"); 
+            });
+        </script> 
 	</head>
 	<body>
+     
 		<div id="page-wrapper">
-
+           
 			<!-- Header -->
+           
 				<section id="header">
-					<div class="container">
+                       <div class="container">
 						<div class="row">
 							<div class="col-12">
-
-								<!-- Logo -->
-									<h1><a href="index.html" id="logo">Rubin Rhapsodies v0.1</a></h1>
-
-								<!-- Nav -->
-									<nav id="nav">
-										<a href="index.html">Homepage</a>
-										<a href="threecolumn.html">XXX</a>
-										<a href="twocolumn1.html">XXX</a>
-										<a href="twocolumn2.html">XXX</a>
-										<a href="onecolumn.html">XXX</a>
-									</nav>
-
-							</div>
-						</div>
-					</div>
+                                    <div id="includedContent"></div>
+                                </div>
+                            </div>
+                           </div>
+	           
+				
 					<div id="banner">
 						<div class="container">
 							<div class="row">
 								<div class="col-6 col-12-medium">
 
 									<!-- Banner Copy -->
-										<p>We do something really useful, important, and unique. Learn all about it here ...</p>
+										<p>Rubin Rhapsodies: a project to offer access to Rubin data through sound</p>
 										<!--<a href="#" class="button-large">Go on, click me!</a>-->
 
 								</div>

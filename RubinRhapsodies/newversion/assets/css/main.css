@@ -53,7 +53,21 @@ table {
 body {
 	-webkit-text-size-adjust: none;
 }
+    p.normal {
+  font-weight: normal;
+    }
 
+    p.thick {
+  font-weight: bold;
+    }
+
+    p.thicker {
+  font-weight: 900;
+    }
+    em {
+   font-weight: normal;
+   font-style: italic;
+    }
 mark {
 	background-color: transparent;
 	color: inherit;
@@ -115,6 +129,7 @@ input, select, textarea {
 	.last-child {
 		margin-bottom: 0 !important;
 	}
+
 
 /* Container */
 
@@ -1454,7 +1469,13 @@ input, select, textarea {
 			display: block;
 			width: 100%;
 		}
-
+    /* Round avatar */
+    .avatar {
+        vertical-align: middle;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
 	.bordered-feature-image {
 		display: block;
 		background: #fff url("images/bg04.png");
@@ -1511,8 +1532,8 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background: #3B4346 url("images/bg01.jpg");
-		border-bottom: solid 1px #272d30;
+		background: #058B8C ;
+		border-bottom: solid 1px #00BABC;
 		box-shadow: inset 0px -1px 0px 0px #51575a;
 		text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
 	}
@@ -1537,12 +1558,13 @@ input, select, textarea {
 		#header nav {
 			position: absolute;
 			right: 0;
+            left: 32%;
 			bottom: 35px;
 			font-weight: 200;
 		}
 
 			#header nav a {
-				color: #c6c8c8;
+				color: #313333;
 				text-decoration: none;
 				font-size: 1.4em;
 				margin-left: 60px;
@@ -1738,6 +1760,7 @@ input, select, textarea {
 			.button-large {
 				font-size: 1.5em;
 			}
+        
 
 		/* Banner */
 
