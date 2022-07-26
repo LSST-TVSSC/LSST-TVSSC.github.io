@@ -1476,6 +1476,13 @@ input, select, textarea {
         height: 100px;
         border-radius: 50%;
     }
+/* Round feature */
+    .feature-portrait {
+        vertical-align: middle;
+        width: 20%;
+        height: 20%;
+        border-radius: 50%;
+    }
 	.bordered-feature-image {
 		display: block;
 		background: #fff url("images/bg04.png");
@@ -1484,10 +1491,24 @@ input, select, textarea {
 		margin: 0 0 1.5em 0;
 		outline: 0;
 	}
-
-		.bordered-feature-image img {
+.bordered-feature-image img {
 			display: block;
 			width: 100%;
+		}
+.bordered-feature-portrait {
+		display: block;
+		background: #fff url("images/bg04.png");
+		padding: 10px;
+		box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.15);
+		margin: 0 0 1.5em 0;
+		outline: 0;
+	}
+
+		.bordered-feature-portrait img {
+			vertical-align: middle;
+        width: 90%;
+        height: 90%;
+        border-radius: 50%;
 		}
 
 	.button-large {
@@ -1603,8 +1624,8 @@ input, select, textarea {
 /* Features */
 
 	#features {
-		background: #353D40 url("images/bg02.jpg");
-		border-bottom: solid 1px #272e31;
+		background: #f7f7f7 ;
+		border-bottom: solid 1px #f7f7f7;
 		padding: 45px 0 45px 0;
 		text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
 		color: #a0a8ab;
@@ -1612,7 +1633,7 @@ input, select, textarea {
 
 		#features h2 {
 			font-size: 1.25em;
-			color: #fff;
+			color: #51575a;
 			margin: 0 0 0.25em 0;
 		}
 
@@ -1623,6 +1644,9 @@ input, select, textarea {
 		#features strong {
 			color: #fff;
 		}
+
+
+
 
 /* Content */
 
@@ -1669,6 +1693,13 @@ input, select, textarea {
 		#content .check-list li {
 			border-bottom: solid 1px #e2e6e8;
 		}
+
+        #content .feature-list li {
+            display: inline-block;
+        	border-bottom: solid 1px #e2e6e8;
+		}
+
+
 
 /* Footer */
 
@@ -1975,7 +2006,33 @@ input, select, textarea {
 			}
 
 	}
+				width: calc(50% - 2em);
+			}
 
+				.features li:nth-child(3) {
+					margin-top: 3em;
+				}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			.features {
+				width: 100%;
+				margin: 0 0 2em 0;
+			}
+
+				.features li {
+					width: 100%;
+					margin-left: 0;
+					margin-top: 2em;
+				}
+
+					.features li:nth-child(2), .features li:nth-child(3) {
+						margin-top: 2em;
+					}
+
+		}
 /* Small */
 
 	@media screen and (max-width: 736px) {
