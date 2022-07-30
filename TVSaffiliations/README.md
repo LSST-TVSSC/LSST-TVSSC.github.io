@@ -1,6 +1,11 @@
 # TVSaffiliations
 
-These chunks of python code allow the user to collect emails of LSST TVS members based on affiliation. Two scripts are provided, one which uses the command line argument, and one which uses a gui, which ultimately is to be implemented on my website.
+A Google Colab notebook (python langauge) allows anyone with access to extract the most recent list of emails for any TVS subgroup
+
+This functionality is also offered as scripts, but scripts are no longer being maintained
+
+## USE THE NOTEBOOK - OPEN IN COLAB (buttom at the top of the notebook)
+
 
 Change the value of tvsfile in conf.py to the correct GoogleDoc file link, which the TVS co-chairs Ashish and Federica can provide.
 
