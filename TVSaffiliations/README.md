@@ -4,7 +4,7 @@ A Google Colab notebook (python langauge) allows anyone with access to extract t
 
 This functionality is also offered as scripts, but scripts are no longer being maintained
 
-## USE THE NOTEBOOK - OPEN IN COLAB (buttom at the top of the notebook)
+## USE THE NOTEBOOK [TVS_ContactSubgroupMembers.ipynb](https://github.com/LSST-TVSSC/LSST-TVSSC.github.io/blob/master/TVSaffiliations/TVS_ContactSubgroupMembers.ipynb)- OPEN IN COLAB (buttom at the top of the notebook)
 
 
 Change the value of tvsfile in conf.py to the correct GoogleDoc file link, which the TVS co-chairs Ashish and Federica can provide.
