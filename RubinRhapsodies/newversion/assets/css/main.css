@@ -1698,7 +1698,34 @@ input, select, textarea {
             display: inline-block;
         	border-bottom: solid 1px #e2e6e8;
 		}
+        #content .responsive-iframe {
+            max-width: 100%;
+            padding-top: 56.25%;
+            position: absolute;
+            width: 100%;
+        }
 
+        #content .responsive-iframe iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        #content.boxleft{
+                float:left;
+                margin-right:20px;
+                display:inline-block; 
+            }
+        #content.boxright{
+                float:right;
+                margin-right:20px;
+                display:inline-block; 
+            }
+
+        #content.clear{
+            clear:both;
+            }
 
 
 /* Footer */
