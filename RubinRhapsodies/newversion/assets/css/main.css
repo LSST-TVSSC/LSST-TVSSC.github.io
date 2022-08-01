@@ -1427,6 +1427,7 @@ input, select, textarea {
 
 		.quote-list li img {
 			float: left;
+            
 		}
 
 		.quote-list li p {
@@ -1793,7 +1794,9 @@ input, select, textarea {
 			}
 
 				.quote-list li img {
-					width: 60px;
+					width: 100%;
+                    height: auto;
+
 				}
 
 				.quote-list li p {
@@ -2056,7 +2059,7 @@ input, select, textarea {
 				}
 
 					.features li:nth-child(2), .features li:nth-child(3) {
-						margin-top: 2em;
+                        margin-top: 2em;
 					}
 
 		}
