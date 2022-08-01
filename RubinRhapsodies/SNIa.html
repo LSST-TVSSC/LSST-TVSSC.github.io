@@ -17,9 +17,15 @@
         <script src="https://cdn.jsdelivr.net/combine/npm/tone@14.7.58,npm/@magenta/music@1.23.1/es6/core.js,npm/focus-visible@5,npm/html-midi-player@1.5.0"></script>
 
         <script src="https://cdn.jsdelivr.net/combine/npm/tone@14.7.58,npm/@magenta/music@1.22.0/es6/core.js,npm/focus-visible@5"></script>
-        
         <script src="https://cdn.jsdelivr.net/npm/html-midi-player@1.5.0/dist/midi-player.min.js"></script>
 
+    <style>
+      #player2::part(control-panel) {
+        background: #ff5;
+        border: 2px solid #000;
+        border-radius: 10px;
+      }
+    </style>
         
         <script> 
             $(function(){
@@ -46,10 +52,9 @@
 			<!-- Header -->
            
 				<section id="header">
-                   <div class="container">
+                      <div class="container">
                        	<div class="row">
 							<div class="col-12">
-                                
                     		<h1><a href="index.html" id="logo">Rubin Rhapsodies v0.1</a></h1>
 
 								<!-- Nav -->
@@ -86,29 +91,24 @@
 
 								<!-- Box #1 -->
 									<section>
-                                        <ul class="quote-list0">
+                                        <ul class="quote-list">
 											<li>
-												<img src=images/lcvs/ID43018203.png >
-                                                
-                                                <midi-player   src="images/lcvs/ID43018203.mid" sound-font="https://storage.googleapis.com/magentadata/js/soundfonts/sgm_plus" visualizer="#allbandsvisualizer" ></midi-player>
+												<img src=images/lcvs/ID43018203.png width="800">
+                                            
+                                                <midi-player   src="images/lcvs/ID43018203.mid" sound-font  visualizer="#allbandsvisualizer" ></midi-player>
                                         
                                                 <midi-visualizer type="player-piano" id="allbandsvisualizer"></midi-visualizer>
                                             </li>
                                         </ul>
                                     </section>  
 							</div>
-                            <div class=col-12>
-                                <div class=mobileShow>
-                                    Scroll to hear each individual photometric bands
-                                </div>
-                            </div>
 							<div class="col-6 col-12-medium">
 
 								<!-- Box #1 -->
 									<section>
                                         <ul class="quote-list">
 											<li>
-												<img src=images/lcvs/ID43018203_u.png width="100%">
+												<img src=images/lcvs/ID43018203_u.png width="500">
                                             </li>
                                             <li>
                                                 <midi-player   src="images/lcvs/ID43018203_u_clarinet.mid" sound-font  visualizer="#ustaffVisualizer" id="player1"></midi-player>
@@ -122,7 +122,7 @@
 							         <section>
                                         <ul class="quote-list">
 											<li>
-												<img src=images/lcvs/ID43018203_g.png width="100%">
+												<img src=images/lcvs/ID43018203_g.png width="500">
                                             </li>
                                             <li>
                                                 <midi-player   src="images/lcvs/ID43018203_g_trumpet.mid" sound-font  visualizer="#gstaffVisualizer" id="player1"></midi-player>
@@ -137,7 +137,7 @@
 							         <section>
                                         <ul class="quote-list">
 											<li>
-												<img src=images/lcvs/ID43018203_r.png width="100%">
+												<img src=images/lcvs/ID43018203_r.png width="500">
                                             </li>
                                             <li>
                                                 <midi-player   src="images/lcvs/ID43018203_r_violin.mid" sound-font  visualizer="#rstaffVisualizer" id="player1"></midi-player>
@@ -153,7 +153,7 @@
                                         <section>
                                         <ul class="quote-list">
 											<li>
-												<img src=images/lcvs/ID43018203_i.png width="100%">
+												<img src=images/lcvs/ID43018203_i.png width="500">
                                             </li>
                                             <li>
                                                 <midi-player   src="images/lcvs/ID43018203_i_cello.mid" sound-font  visualizer="#istaffVisualizer" id="player1"></midi-player>
@@ -168,7 +168,7 @@
 							     <section>
                                        <ul class="quote-list">
 											<li>
-												<img src=images/lcvs/ID43018203_z.png width="100%">
+												<img src=images/lcvs/ID43018203_z.png width="500">
                                             </li>
                                             <li>
                                                 <midi-player   src="images/lcvs/ID43018203_z_frenchhorn.mid" sound-font  visualizer="#zstaffVisualizer" id="player1"></midi-player>
@@ -182,7 +182,7 @@
 							<section>
                                 <ul class="quote-list">
 											<li>
-												<img src=images/lcvs/ID43018203_y.png width="100%">
+												<img src=images/lcvs/ID43018203_y.png width="500">
                                             </li>
                                             <li>
                                                 <midi-player   src="images/lcvs/ID43018203_y_tinklebell.mid" sound-font  visualizer="#ystaffVisualizer" id="player1"></midi-player>
