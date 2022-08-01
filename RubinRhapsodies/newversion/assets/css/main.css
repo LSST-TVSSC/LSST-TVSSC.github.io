@@ -723,9 +723,8 @@ input, select, textarea {
 				.row > .col-3-large {
 					width: 25%;
 				}
-
-				.row > .off-3-large {
-					margin-left: 25%;
+                .row > .col-3-medium {
+					width: 25%;
 				}
 
 				.row > .col-4-large {
@@ -1413,7 +1412,7 @@ input, select, textarea {
 	.quote-list li {
 		padding: 1em 0 1em 0;
 		overflow: hidden;
-	}
+	   }
 
 		.quote-list li:first-child {
 			padding-top: 0 !important;
@@ -1427,7 +1426,6 @@ input, select, textarea {
 
 		.quote-list li img {
 			float: left;
-            
 		}
 
 		.quote-list li p {
@@ -1437,6 +1435,40 @@ input, select, textarea {
 		}
 
 		.quote-list li span {
+			display: block;
+			margin-left: 90px;
+			font-size: 0.9em;
+			font-weight: 400;
+		}
+
+
+    .quote-list0 li {
+		padding: 1em 0 1em 0;
+		overflow: hidden;
+	   }
+
+		.quote-list0 li:first-child {
+			padding-top: 0 !important;
+			border-top: 0 !important;
+		}
+
+		.quote-list0 li:last-child {
+			padding-bottom: 0 !important;
+			border-bottom: 0 !important;
+		}
+
+		.quote-list0 li img {
+			float: left;
+            width:"20%";
+		}
+
+		.quote-list0 li p {
+			margin: 0 0 0 90px;
+			font-size: 1.2em;
+			font-style: italic;
+		}
+
+		.quote-list0 li span {
 			display: block;
 			margin-left: 90px;
 			font-size: 0.9em;
