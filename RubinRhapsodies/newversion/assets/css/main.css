@@ -43,6 +43,7 @@ blockquote, q {
 	blockquote:before, blockquote:after, q:before, q:after {
 		content: '';
 		content: none;
+        
 	}
 
 table {
@@ -54,7 +55,8 @@ body {
 	-webkit-text-size-adjust: none;
 }
     p.normal {
-  font-weight: normal;
+    font-weight: normal;
+    
     }
 
     p.thick {
@@ -102,7 +104,8 @@ input, select, textarea {
 		font-family: 'Yanone Kaffeesatz';
 		line-height: 1.85em;
 		font-weight: 300;
-	}
+            
+    }
 
 	input, textarea, select {
 		color: #474f51;
@@ -110,14 +113,32 @@ input, select, textarea {
 		font-family: 'Yanone Kaffeesatz';
 		line-height: 1.85em;
 		font-weight: 300;
+    
 	}
 
-	ul, ol, p, dl {
+	ul, ol, dl, p  {
 		margin: 0 0 2em 0;
+        }
+    p {
+        margin: 0 0 2em 0;
+        color: #373f41;
+        font-weight: 300;
+        line-height: 2.5em;
+        text-shadow: 0px 0px 0px #000000;
+	
+	}
+
+    p.a {
+        margin: 0 0 2em 0;
+        color: #373f41;
+        font-weight: 300;
+        line-height: 2.5em;
+        text-shadow: 0px 0px 0px #000000;
+	
 	}
 
 	a {
-		text-decoration: underline;
+        text-decoration: underline;
 	}
 
 		a:hover {
@@ -1682,7 +1703,7 @@ input, select, textarea {
 		}
 
 		#features a {
-			color: #e0e8eb;
+			color: #373f41;;
 		}
 
 		#features strong {
@@ -1705,6 +1726,7 @@ input, select, textarea {
 			padding: 40px 30px 45px 30px;
 			box-shadow: 2px 2px 2px 1px rgba(128, 128, 128, 0.1);
 			margin: 0 0 25px 0;
+            
 		}
 
 		#content h2 {
@@ -1720,6 +1742,7 @@ input, select, textarea {
 
 		#content a {
 			color: #ED391B;
+            
 		}
 
 		#content header {
@@ -1949,6 +1972,7 @@ input, select, textarea {
 
 			#content {
 				padding: 25px 0;
+                text-shadow: 0 0 0 0;
 			}
 
 		/* Nav */
@@ -2148,6 +2172,7 @@ input, select, textarea {
 
 			.quote-list li p {
 				margin-bottom: 0.5em;
+                text-shadow: 0 0 0 0;
 			}
 
 			.check-list li {
@@ -2184,6 +2209,11 @@ input, select, textarea {
 			#content header {
 				margin: 0 0 1.25em 0;
 			}
+            #content p {
+				text-shadow: 2px 2px 4px #000000;
+			}
+        
+        
 
 		/* Footer */
 
