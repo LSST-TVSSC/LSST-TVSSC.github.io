@@ -4,86 +4,86 @@
      "children": [
         {"name": "Introduction",
           "children":[
-             {"name": "Rubin LSST Data Products and their access - An Overview (MLG)",
+             {"name": "Rubin LSST Data Products and their access - An Overview",
                     "children": [
                         {"name":"Rubin LSST Data Products", "size": 483},
                         {"name":"Remotely-Accessible Computing Platforms for LSST Science", "size": 483}
                     ]
              },
-            {"name":"Purpose of This Document (RS, FBB)", "size": 483}
+            {"name":"Purpose of This Document", "size": 483}
             ] 
             },
          
         {"name": "Time Critical Science",
             "children": [
-                {"name": "Executive Summary (RS, KH)", "size": 483},
-                {"name": "Rubin LSST Prompt data products (MLG)", "size": 483, 
+                {"name": "Executive Summary", "size": 483},
+                {"name": "Rubin LSST Prompt data products", "size": 483, 
                 "children": [
                         {
                     "name": "Quantities of Particular Importance to Time-Domain Studies", "size": 483}
                     ]
                 },
                 
-                {"name": "Extrinsic Transients (Editor: RS)",
+                {"name": "Extrinsic Transients",
                     "children": [
-                        {"name": "Microlensing (RS, MM, RDS)", "size": 483},
-                        {"name": "Eclipsing Binary Stars (AP)", "size": 483},
-                        {"name": "The Search for Extraterrestrial Intelligence (JD, FBB)", "size": 483}
+                        {"name": "Microlensing", "size": 483},
+                        {"name": "Eclipsing Binary Stars", "size": 483},
+                        {"name": "The Search for Extraterrestrial Intelligence", "size": 483}
                     ]
                 },
                 
-                {"name": "Galactic & Local Universe (Editor: PS)",
+                {"name": "Galactic & Local Universe",
                     "children": [
-                        {"name": "Young Eruptive Protostars (TG, RSB, SA)", "size": 483},
-                        {"name": "Compact Binaries: Cataclysmic Variables (CVs) (PS, EM, DB)", "size": 483},
-                        {"name": "Compact Binaries: Neutron Star Binaries (EM, DdM, KD)", "size": 483},
-                        {"name": "Compact Binaries: Black Hole X-ray Binaries (BHBs) (MJ,PG)", "size": 483}
+                        {"name": "Young Eruptive Protostars", "size": 483},
+                        {"name": "Compact Binaries: Cataclysmic Variables (CVs)", "size": 483},
+                        {"name": "Compact Binaries: Neutron Star Binaries", "size": 483},
+                        {"name": "Compact Binaries: Black Hole X-ray Binaries (BHBs)", "size": 483}
                     ]
                 },
                 
-                {"name": "Extragalactic (Editor: FBB)",
+                {"name": "Extragalactic",
                     "children": [       
-                            {"name":"Supernovae (EJ,MLG,VT,AM,FR,FBB)", "size": 483},   
-                            {"name":"Intermediate-Luminosity Optical Transients (ILOTs) (AP,EM,FBB,AR)", "size": 483},
-                            {"name":"Gamma Ray Bursts (GRB) (MD,EB,AC)", "size": 483},
-                            {"name":"Blazars (CR,BB,MIC,FDA,CR)", "size": 483},
-                            {"name":"Tidal Disruption Events (TDE) (KJ,SvV)", "size": 483},
-                            {"name":"Electromagnetic (EM) Counterparts of Gravitational Wave (GW) Events (RM,PC,IA,MS,GT,SP,EB,RY)", "size": 483}
+                            {"name":"Supernovae", "size": 483},   
+                            {"name":"Intermediate-Luminosity Optical Transients (ILOTs)", "size": 483},
+                            {"name":"Gamma Ray Bursts (GRB)", "size": 483},
+                            {"name":"Blazars", "size": 483},
+                            {"name":"Tidal Disruption Events (TDE)", "size": 483},
+                            {"name":"Electromagnetic (EM) Counterparts of Gravitational Wave (GW) Events", "size": 483}
                     ]
                 }
             ]
         },
          
         {"name": "Non-Time Critical Science" , "children": [
-                {"name": "Executive Summary: KH", "size": 483},
-                {"name": "Rubin LSST Data Release products (for time domain) (MLG)", "size": 483},
-                {"name": "Extrinsic transients and variables (EditorsL ML, JP)",
+                {"name": "Executive Summary", "size": 483},
+                {"name": "Rubin LSST Data Release products (for time domain)", "size": 483},
+                {"name": "Extrinsic transients and variables",
                     "children": [
-                        {"name": "Transiting exoplanets (ML,JP,KS)", "size": 483},
-                        {"name": "Eclipsing binary stars (AP,KS,CCN)", "size": 483},
-                         {"name": "Microlensing (MM,RS)", "size": 483}
+                        {"name": "Transiting exoplanets", "size": 483},
+                        {"name": "Eclipsing binary stars", "size": 483},
+                         {"name": "Microlensing", "size": 483}
                     ]
                 },
-                {"name": "Intrinsic Galactic & Local Universe Transients and Variables(Editor: KH)", "children": [
-                        {"name": "Pulsating stars: General (KH,KB,MDO,IM,MM,MDC)", "size": 383},
-                        {"name": "Pulsating Stars: Cepheids and RR Lyrae Stars (IM,MM,SL,RM,VR,GdS,MDC)", "size": 383},
-                        {"name": "Pulsating Stars: Long Period Variables (NM,MDC,MM)", "size": 383},
-                        {"name": "Galactic Globular Clusters (LRS)", "size": 383},
-                         {"name": "Brown Dwarfs: MR", "size": 383},
-                        {"name": "Young Erruptive Variables (TG,RSB,SA)", "size": 383},
-                        {"name": "Compact Binaries: Cataclysmic Variables (PS,DB)", "size": 383},
-                        {"name": "Compact Binaries: Neutron Star Binaries (EM,DdM)", "size": 383},
-                        {"name": "Compact Binaries: Black Hole Binaries (BHBs) (MJ,PG)", "size": 383},
-                        {"name": "Population properties for BHBs (MJ,P)", "size": 383},
-                        {"name": "Luminous Blue Variables (LBVs) (JV,FBB,AR)", "size": 383},
-                         {"name": "Light Echoes of eruptions and explosions (XL,FBB)", "size": 383}
+                {"name": "Intrinsic Galactic & Local Universe Transients and Variables", "children": [
+                        {"name": "Pulsating stars: General", "size": 383},
+                        {"name": "Pulsating Stars: Cepheids and RR Lyrae", "size": 383},
+                        {"name": "Pulsating Stars: Long Period Variables", "size": 383},
+                        {"name": "Galactic Globular Clusters", "size": 383},
+                         {"name": "Brown Dwarfs", "size": 383},
+                        {"name": "Young Erruptive Variables", "size": 383},
+                        {"name": "Compact Binaries: Cataclysmic Variables", "size": 383},
+                        {"name": "Compact Binaries: Neutron Star Binaries", "size": 383},
+                        {"name": "Compact Binaries: Black Hole Binaries (BHBs)", "size": 383},
+                        {"name": "Population properties for BHBs", "size": 383},
+                        {"name": "Luminous Blue Variables (LBVs)", "size": 383},
+                         {"name": "Light Echoes of eruptions and explosions", "size": 383}
                     ]
                    
                 },
                 {"name": "Intrinsic and Extrinsic Extragalactic transients and variables (Editor: CR)",
                     "children": [
-                        {"name": "Blazars (CR,BB,MIC,FDA,CR)",  "size": 483},
-                         {"name": "Supernovae (MTB,LG,EC,VP,FR,AM)",  "size": 483}
+                        {"name": "Blazars",  "size": 483},
+                         {"name": "Supernovae)",  "size": 483}
                     ]
                 }
                 
@@ -97,25 +97,25 @@
          
       {"name": "Deep Drilling Fields science cases",
             "children": [
-                {"name": "Introduction (RS)", "size": 483},
-                {"name": "Extrinsic transients and variables: (Editor:  AP)",
+                {"name": "Introduction", "size": 483},
+                {"name": "Extrinsic transients and variables",
                     "children": [
-                        {"name": "Transiting Exoplanets (ML,JP,KS)", "size": 483},
-                        {"name": "Eclipsing binary stars (AP)", "size": 483}
+                        {"name": "Transiting Exoplanets", "size": 483},
+                        {"name": "Eclipsing binary stars", "size": 483}
                     ]
                 },
-                {"name": "Intrinsic Galactic and Local Universe transients and variables (Editor: MR)",
+                {"name": "Intrinsic Galactic and Local Universe transients and variables",
                     "children": [
-                        {"name": "Pulsating Variables (KH,KB,MDO,RS,MDC)", "size": 483},
-                        {"name": "Brown Dwarfs (MR)", "size": 483},
-                        {"name": "Compact binaries AM CVn and Ultracompact Binaries (DB, PS)", "size": 483},
-                        {"name": "Compact Binaries: Neutron Star binaries (EM)", "size": 483},
-                        {"name":"Intermediate Luminosity Optical Transients (ILOTs) (AP,EM)", "size": 483}
+                        {"name": "Pulsating Variables", "size": 483},
+                        {"name": "Brown Dwarfs", "size": 483},
+                        {"name": "Compact binaries AM CVn and Ultracompact Binaries", "size": 483},
+                        {"name": "Compact Binaries: Neutron Star binaries", "size": 483},
+                        {"name":"Intermediate Luminosity Optical Transients (ILOTs)", "size": 483}
                     ]
                 },
-                { "name": "Intrinsic/Extrinsic Extragalactic Transients (Editor: CR)",
+                { "name": "Intrinsic/Extrinsic Extragalactic Transients",
                     "children": [
-                        {"name": "Blazars (CR,BB,MIC,FDA,CR)",  "size": 483}
+                        {"name": "Blazars",  "size": 483}
                     ]  
                 }
             ]
@@ -125,22 +125,22 @@
              
       {"name": "Minisurvey and Microsurvey science cases",
         "children": [
-                {"name": "Introduction (RS)", "size": 483},
-                {"name": "Extrinsic transients and variables (Editor: MM)",
+                {"name": "Introduction", "size": 483},
+                {"name": "Extrinsic transients and variables",
                     "children": [
-                        {"name": "Microlensing (RS)", "size": 483},
-                        {"name": "Eclipsing binary stars (AP)", "size": 483},
-                        {"name": "Interstellar scintillation towards LMC and SMC (MM)", "size": 483}
+                        {"name": "Microlensing", "size": 483},
+                        {"name": "Eclipsing binary stars", "size": 483},
+                        {"name": "Interstellar scintillation towards LMC and SMC", "size": 483}
                     ]
                 },
-                {"name": "Intrinsic Galactic and Local Universe transients and variables (Editor: KB)",
+                {"name": "Intrinsic Galactic and Local Universe transients and variables",
                     "children": [
-                        {"name": "RR Lyrae stars in the inner bulge: (MDO,GB,MF,GF,AG,KH,DM,SM,TM)", "size": 483},
-                        {"name": "Brown Dwarfs (MR)", "size": 483},
-                        {"name": "Variables in LMC SMC (PS)", "size": 483},
-                        {"name": "Compact binaries (in quiescence+outburst) (EM)", "size": 483},
-                        {"name":"Intermediate Luminosity Optical Transients (ILOTs) (AP,EM)", "size": 483},
-                        {"name":"Young Stellar Objects (RSB,LV,PH)", "size": 483}
+                        {"name": "RR Lyrae stars in the inner bulge", "size": 483},
+                        {"name": "Brown Dwarfs", "size": 483},
+                        {"name": "Variables in LMC SMC", "size": 483},
+                        {"name": "Compact binaries", "size": 483},
+                        {"name":"Intermediate Luminosity Optical Transients (ILOTs)", "size": 483},
+                        {"name":"Young Stellar Objects", "size": 483}
                      ]
  
                 }
@@ -152,18 +152,18 @@
          
       {"name": "Methodology and Infrastructure",
        "children": [
-                {"name": "Infrastructure Required for Time-Critical Science (RS)", "size": 483, 
+                {"name": "Infrastructure Required for Time-Critical Science", "size": 483, 
                  "children": [
                     {"name":"Rubin LSST Data Products (RS)", "size": 483},
-                     {"name":"Rubin LSST Alert Brokers (RS,RS,NH,AM,AG,SvV,FBB,KM)", "size": 483},
-                    {"name":"Managing Follow-up Programs: RS", "size": 483},
-                     {"name":"Rubin LSST Alert Brokers (RS,RS,NH,AM,AG,SvV,FBB,KM)", "size": 483}
+                     {"name":"Rubin LSST Alert Brokers", "size": 483},
+                    {"name":"Managing Follow-up Programs", "size": 483},
+                     {"name":"Rubin LSST Alert Brokers", "size": 483}
                 ]
                 },
                 {"name": "Classification", "size": 483, "children": [
-                    {"name": "Classification of periodic vsriable stars (RS,NH,AM,AG,SvV,FBB,KM)", "size": 483},
-                    {"name": "Transient and anomalies classification algorithms (RS,NH,AM,AG,SvV,FBB,KM)", "size": 483},
-                    {"name": "Tidal Disruptive Events Filtering  (RS,NH,AM,AG,SvV,FBB,KM)", "size": 483}
+                    {"name": "Classification of periodic vsriable stars", "size": 483},
+                    {"name": "Transient and anomalies classification algorithms", "size": 483},
+                    {"name": "Tidal Disruptive Events Filtering", "size": 483}
                     ]
                 }
            ]
@@ -171,13 +171,13 @@
          
     {"name": "Equity and Inclusivity in the Rubin LSST TVS", "size": 1640,
         "children": [
-            {"name": "Introduction and current state (FBB,RS)", "size": 483, "children": [
-                {"name": "TVS Call for Action: Current progress and future commitments (FBB,RS,RSB)", "size": 483}
+            {"name": "Introduction and current state", "size": 483, "children": [
+                {"name": "TVS Call for Action: Current progress and future commitments ", "size": 483}
                 ]
             },
-            {"name": "Increasing accessibility to Rubin data (FBB,RSB)", "size": 483, "children": [
-                    {"name": "Sonification (FBB,RC)",  "size": 483},
-                    {"name": "3D rendering of Rubin data (RSB)",  "size": 483}
+            {"name": "Increasing accessibility to Rubin data", "size": 483, "children": [
+                    {"name": "Sonification",  "size": 483},
+                    {"name": "3D rendering of Rubin data",  "size": 483}
                 ]
             }
          ]
