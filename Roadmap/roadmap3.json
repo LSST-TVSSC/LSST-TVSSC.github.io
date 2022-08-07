@@ -44,11 +44,11 @@
                 {"name": "Extragalactic (Editor: FBB)",
                     "children": [       
                             {"name":"Supernovae (EJ,MLG,VT,AM,FR,FBB)", "size": 483},   
-                                {"name":"Intermediate-Luminosity Optical Transients (ILOTs) (AP,EM,FBB,AR)", "size": 483},
-                                {"name":"Gamma Ray Bursts (GRB) (MD,EB,AC)", "size": 483},
-                                {"name":"Blazars (CR,BB,MIC,FDA,CR)", "size": 483},
-                                {"name":"Tidal Disruption Events (TDE) (KJ,SvV)", "size": 483},
-                                {"name":"Electromagnetic (EM) Counterparts of Gravitational Wave (GW) Events (RM,PC,IA,MS,GT,SP,EB,RY)", "size": 483}
+                            {"name":"Intermediate-Luminosity Optical Transients (ILOTs) (AP,EM,FBB,AR)", "size": 483},
+                            {"name":"Gamma Ray Bursts (GRB) (MD,EB,AC)", "size": 483},
+                            {"name":"Blazars (CR,BB,MIC,FDA,CR)", "size": 483},
+                            {"name":"Tidal Disruption Events (TDE) (KJ,SvV)", "size": 483},
+                            {"name":"Electromagnetic (EM) Counterparts of Gravitational Wave (GW) Events (RM,PC,IA,MS,GT,SP,EB,RY)", "size": 483}
                     ]
                 }
             ]

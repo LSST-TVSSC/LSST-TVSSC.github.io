@@ -8,7 +8,7 @@
 
 .node circle {
   fill: #fff;
-  stroke: steelblue;
+  stroke: #058B8C;
   stroke-width: 1.5px;
 }
 
@@ -63,12 +63,14 @@ d3.json("roadmap3.json", function(error, flare) {
       d.children = null;
     }
   }
-
+function separation(a, b) {
+  return a.parent == b.parent ? 2 : 3;
+}
   root.children.forEach(collapse);
   update(root);
 });
 
-d3.select(self.frameElement).style("height", "800px");
+d3.select(self.frameElement).style("height", "150px");
 
     
     
@@ -114,7 +116,7 @@ function update(source) {
   var node = svg.selectAll("g.node")
       .data(nodes, function(d) { return d.id || (d.id = ++i); });
 
-  var wraplength = 200
+  var wraplength = 500
   console.log("wraplength", wraplength, source._children);
     
     // Enter any new nodes at the parent's previous position.
@@ -125,14 +127,14 @@ function update(source) {
 
   nodeEnter.append("circle")
       .attr("r", 1e-6)
-      .style("fill", function(d) { return d._children ? "steelblue" : "#fff"; });
+      .style("fill", function(d) { return d._children ? "#00BABC" : "#fff"; });
 
   nodeEnter.append("text")
       .attr("x", function(d) { return d.children || d._children ? -10 : 10; })
       .attr("dy", ".35em")
       .attr("dx", function(d) { return d.children || d._children ? "-1em": "1em" ; })
       .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start" ; })
-      .text(function(d) { return d.name; }).call(wrap, 100)
+      .text(function(d) { return d.name; }).call(wrap, 160)
       .style("fill-opacity", 1);
     
 
@@ -143,7 +145,7 @@ function update(source) {
 
   nodeUpdate.select("circle")
       .attr("r", 4.5)
-      .style("fill", function(d) { return d._children ? "steelblue" : "#fff"; });
+      .style("fill", function(d) { return d._children ? "#00BABC" : "#fff"; });
 
   nodeUpdate.select("text")
       .style("fill-opacity", 1);
