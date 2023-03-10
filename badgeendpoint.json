@@ -2,5 +2,7 @@
   "schemaVersion": 1,
   "label": "LSST-TVS",
   "message": "endorsed software",
-  "color": "lightgrey"
+  "color": "lightgrey",
+  "style": "plastic",
+  "labelColor": "dodgerblue",
 }
