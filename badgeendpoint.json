@@ -1,5 +1,7 @@
 {
   "schemaVersion": 1,
   "label": "LSST-TVS",
-  "message": "endorsed software"
+  "message": "endorsed software",
+  "color": "lightgrey",
+  "labelColor": "blue"
 }
