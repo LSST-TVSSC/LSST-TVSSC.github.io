@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "label": "hello",
-  "message": "sweet world",
+   "schemaVersion": 1,
+  "label": "LSST TVS",
+  "message": "endorsed software",
   "color": "orange"
 }
