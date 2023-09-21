@@ -1,0 +1,175 @@
+<!DOCTYPE HTML>
+<!--
+	Halcyonic by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<link rel="shortcut icon" href="images/RRlogo.png" type="image/png" />
+        <title>RubinRhapsodies Project Description</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script> 
+            $(function(){
+                $("#includedContent").load("./navbar.html"); 
+            });
+        </script> 
+	</head>
+	<body class="subpage">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header">
+                    <div class="container">
+                       	<div class="row">
+							<div class="col-12">
+                    		<h1><a href="index.html" id="logo">Rubin Rhapsodies v0.1</a></h1>
+
+								<!-- Nav -->
+									<nav id="nav">
+										<a href="index.html">Homepage</a>
+										<a href="project.html">Project Description</a>
+										<a href="team.html">Team Members</a>
+                                        
+										<a href="https://docs.google.com/document/d/1iqrg731SE6wlvgCmTqBC9By19uzMRTaGbP3kOf_5OfU/edit?usp=sharing">Glossary</a>
+										<a href="upcoming.html">Upcoming</a>
+                                        
+                                        <a href="mailto:fbianco@udel.edu">Contact us</a>
+									</nav>
+        <!--<h1><a href="index.html" id="name">Rubin Rhapsodies v0.1</a></h1>
+                        <div class="row">
+							<div class="col-12">
+                                    <div id="includedContent_nav"></div>
+                                </div>
+                            </div>
+-->
+                    
+                            </div></div></div>
+				</section>
+
+			<!-- Content -->
+				<section id="content">
+					<div class="container">
+						<div class="row">
+							<div class="col-3 col-12-medium">
+
+								<!-- Left Sidebar -->
+									<section>
+										<header>
+											<h2>Rubin Observatory</h2>
+										</header>
+										<p>
+                                            <img class=feature-image src="logos/Rubin-O-Logo.png" width=100%>
+											Vera C. Rubin Observatory will produce an unprecedented astronomical data set for studies of the deep and dynamic universe, make the data widely accessible to a diverse community of scientists, and engage the public to explore the Universe with us.
+
+                                            The goal of the Vera C. Rubin Observatory project is to conduct the 10-year Legacy Survey of Space and Time (LSST). 
+                                            
+                                            </p>
+										<ul class="link-list">
+											<li><a href="https://www.lsst.org/about"> Read more at Rubin Observatory's website</a></li>
+                                            
+                                            <img class=feature-image src="images/rubinview.png" width=100%>
+										
+											
+										</ul>
+									</section>
+									<section>
+										<header>
+											<h2>Partners and sponsors</h2>
+										</header>
+										<ul class="link-list">
+											<li>This project developed in the nursery of the <a href="https://lsst-tvssc.github.io/">Transient and Variable Stars Science Collaboration</a></li>
+											<li>The musicians' team on this project are faculty and students at <a href="https://www.lincoln.edu/">Lincoln University</a> the Nation's First Degree-Granting 
+                                                Historically Black College and University</li>
+											<li>The astrophsyicists and data scientists on this team are faculty and students at the <a href="https://www.udel.edu/"> University of Delaware</a></li>
+											<li>The <a href="https://www.hsfoundation.org/">Heising-Simons foundation</a> has generously supported this work through the "Leveling the playing field” 2021-2022 grant to the Science Collaborations.</li>
+											<li>The “Leveling the playing field” 2021-2022 grant to the Science Collaborations is administered by the <a href="https://lco.global/">Las Cumbres Observatory (LCO) </a></li>
+											<li>
+                                                <a href="https://www.lsst.org">Rubin Observatory</a> and the <a href="https://www.lsstcorporation.org/">LSST Corporation</a> have generousely supported the participation of Ms. Wells and Dr. Limb to the <a href="https://project.lsst.org/meetings/rubin2022/"> Rubin Project Community Workshop 2022</a> to present their work on Rubin Rhapsodies</li>
+										</ul>
+									</section>
+							</div>
+							<div class="col-6 col-12-medium imp-medium">
+
+								<!-- Main Content -->
+									<section>
+										<header>
+                                            <h2>Drones provide a muscial support to the sonification and represent the moon phases</h2>
+										</header>
+										<p>
+											
+
+                                            Below is the lightcurve of a Type Ibc Supernova from the Photometric LSST Astronomical Time series Classification Challenge (PLAsTiCC) [1]. The data is colored according the its corresponding photometric band and assigned an instrument. In each band, flux is mapped to pitch, uncertainty to volume. The duration of a single moon phase, corresponding to one pulse of the drone sound, is indicated on the time axis. The sonification was done using sonify [2], an open-source software library for turning data into MIDI audio. Modifications of the software to suit the needs of the Rubin data have been implemented in the code base which is available at https://github.com/fedhere/RubinRhapsodies.git
+
+    
+                                        </p><p>
+                                            <img src=images/lcvs/dronegliss.png width=500 >
+                                                
+                                            <midi-player   src="images/lcvs/drone_midi_2023.mid" sound-font="https://storage.googleapis.com/magentadata/js/soundfonts/sgm_plus" visualizer="#allbandsvisualizer" ></midi-player>
+                                        
+                                
+                                            <midi-visualizer type="player-piano" id="allbandsvisualizer"></midi-visualizer>
+                                            
+                                       
+									</section>
+
+							</div>
+							<div class="col-3 col-12-medium">
+
+								<!-- Right Sidebar -->
+									<section>
+										<header>
+											<h2>Our team</h2>
+										</header>
+										<ul class="link-list"><li>
+                                            <img class=avatar src=images/wells.png width=100>
+                                            <br>
+                                            <a href="team.html">
+                                                 Jendaya Wells</a></li>
+											<li><img class=avatar src=images/clarke.png><br>
+                                                <a href="team.html">Riley Clarke</a></li>
+											<li><img class=avatar  src=images/limb.png width=100><br>
+                                                <a href="team.html">Christine Limb</a></li>
+											<li><img class=avatar  src=images/bianco_hs.jpg width=100><br>
+                                                <a href="http://fbb.space/">Federica Bianco</a></li>
+										</ul>
+									</section>
+									<section>
+										<header>
+											<h2>Collaborators</h2>
+										</header>
+										<p>
+											A number of people have been involved in ideating, conceptualizing, and securing funds for this project including:
+										</p>
+										<ul class="link-list">
+											<li>Siegfried Eggl (UIUC, Solar System SC)</li>
+											<li>Scott Fleming (STsCI)</li>
+											<li>Sara Bonito (INAF, TVS SC)</li>
+										</ul>
+									</section>
+
+							</div>
+						</div>
+					</div>
+				</section>
+
+			<!-- Copyright -->
+				<div id="copyright">
+					&copy; RubinRhapsodies. All rights reserved. | Design: <a href="http://html5up.net">HTML5 UP</a>
+				</div>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
