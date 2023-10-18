@@ -1926,6 +1926,7 @@ input, select, textarea {
 	.image {
 		display: inline-block;
 		border: 0;
+        background: #ffffff;
 	}
 
 		.image img {
