@@ -3903,22 +3903,10 @@ input, select, textarea {
 		background-size: 100% 100%;
 	}
 
-		#intro p {
-			font-size: 1em;
-		}
-
 			@media screen and (max-width: 980px) {
 
 				#intro p br {
 					display: none;
-				}
-
-			}
-
-			@media screen and (max-width: 736px) {
-
-				#intro p {
-					font-size: 1em;
 				}
 
 			}
