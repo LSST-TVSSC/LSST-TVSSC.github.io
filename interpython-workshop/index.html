@@ -19,9 +19,8 @@
 				<div class="inner">
 					<nav>
 						<ul>
-							<li><a href="#intro">Welcome</a></li>
+							<li><a href="#welcome">Welcome</a></li>
 							<li><a href="#one">Fast facts</a></li>
-							<li><a href="#onep5">Motivation</a></li>
 							<li><a href="#two">Workshop overview</a></li>
 							<li><a href="#three">The volunteers</a></li>
                             <li><a href="#four">Future plans</a></li>
@@ -34,10 +33,22 @@
 			<div id="wrapper">
 
 				<!-- Intro -->
-					<section id="intro" class="wrapper style1 fullscreen fade-up">
+					<section id="welcome" class="wrapper style2 fade-up">
 						<div class="inner">
-							<h1>Welcome</h1>
-							<p>Intermediate Python for Astronomical Software development is a workshop 
+							<h2>Welcome</h2>
+							<p>Modern astronomical research is tightly related to data analysis and writing software. 
+							While many university curriculums include introductory courses on programming, most astronomers never
+							get a proper training on tools and best practices that help to develop reliable, reusable and maintainable software.
+							</p>
+							<p>Intermediate Python for Astronomical Software Development (aka InterPython) workshop aims to mitigate
+							this problem. The InterPython workshop is being developed by the team of the TVS SC members, using the Carpentries 
+							<a href="https://carpentries-incubator.github.io/python-intermediate-development/">Intermediate Research Software Development workshop</a> 
+							materials as a foundation. Our goal is to create a short but comprehensive software development workshop that would be astronomy-specific
+							and at the same time would teach the core skill set necessary for the professional programming.
+							<p>The materials are intended for mainly self-mastering mode of learning with the instructors' help when needed.
+							The workshop can be taught as a 
+							whole or in parts, in an online or offline mode. </p>
+							<p>The workshop is being developed following <a href="https://carpentries.org/">the Carpentries</a> standards and the materials are available under the Creative Commons Attribution License. Anyone can share and adapt them to their own needs, and we encourage everyone to use these lessons for organizing your own workshops.</p>
 							<div class="logo-container">
                                 <a href="#" class="image" ><img src="images/logo%20tvs%20copy.png" alt=""  /></a>
                                 <a href="#" class="image"><img src="images/lsst-discovery-alliance-logo.svg" alt="" /></a>
@@ -45,10 +56,6 @@
                                 
                             </div>
 						
-						<ul class="actions">
-								<li><a href="#one" class="button scrolly">Learn more</a></li>
-							
-							</ul>
 						</div>
 						
 						</section>
@@ -57,7 +64,6 @@
 					<section id="one" class="wrapper">
                     						<div class="inner">
 							<h2>Fast Facts</h2>
-							<p> The first InterPython workshop facts</p>
 							<div class="features">
 								<section>
 									<span class="icon solid major fa-calendar"></span>
@@ -66,55 +72,40 @@
 								</section>
 								<section>
 									<span class="icon solid major fa-map-pin"></span>
-									<h3>Location</h3>
-									<p>Online</p>
+									<h3>Demographics</h3>
+									<p>~20 registered participants from the TVS SC community from all over the world, ~50% of them are undergraduate and PhD students</p>
 								</section>
 								<section>
 									<span class="icon solid major fa-dollar-sign"></span>
 									<h3>Funding</h3>
-									<p>LSST DA grant $7500 for honorariums</p>
+									<p>LSST DA grant $7500 for workshop developers and instructors honorariums</p>
 								</section>
 								<section>
 									<span class="icon solid major fa-handshake"></span>
 									<h3>Commitment</h3>
-									<p>Develop astronomical software workshop materials and organize at least two workshops in two years. </p>
+									<p>Develop astronomical software workshop materials and organize at least two workshops in 2024-2025. </p>
 								</section>
 
 
 								<section>
 									<span class="icon solid major fa-link"></span>
-									<h3>Materials</h3>
-									<p>The website</p>
+									<h3>The materials</h3>
+									<p><a href="https://shrra.github.io/python-intermediate-development/">InterPython workshop website</a> </p>
 								</section>
 								<section>
 									<span class="icon solid major fa-pencil-alt"></span>
 									<h3>Contacts</h3>
 
-                                    <p>Email, slack </p>
+                                    <p>Slack, email: shr.razim at gmail.com </p>
 								</section>
                                                 </div>
                         </div>
                                 </section>
 
-						<!-- Onep5 -->
-					<section id="onep5" class="wrapper style2 fade-up">
-                    						<div class="inner">
-							<h2>Motivation</h2>
-							<p>Why we decided to create this workshop</p>
-
-
-
-                        </div>
-                        
-
-
-
-						
-				</section>
 
 
 				<!-- Two -->
-					<section id="two" class="wrapper style3 fade-up">
+					<section id="two" class="wrapper style2 fade-up">
 <!--
                         			<div id="wrapper">
 
@@ -122,14 +113,28 @@
 					<section id="main" class="wrapper">
 -->
 						<div class="inner">
-							<h1 class="major">Program information</h1>
-
-							<!-- Text -->
 								<section>
 									<h2>Workshop Overview</h2>
-                                    <p><span class="image right"><img src="images/schedule.png" alt="" /></span>
-									The overview
-                                    
+                                    <p>The workshop takes five 4-hours sessions, one session per day. In the first three days the lessons imply self-mastering the materials
+                                   with a lot of practical exercises. In the last two days the attendees work in groups of several people, mastering collaborative tools and best practices.</p>
+                                   <p>The curriculum includes the following topics:</p>
+                                   <ul class="alt">
+                                   	<li>Virtual environments;</li>
+                                   	<li>Jupyter Lab IDE</li>
+                                   	<li>Best practices for Jupyter Lab (and Notebooks)</li>
+                                   	<li>Basics of Git and GitHub</li>
+                                   	<li>Python code style conventions</li>
+                                   	<li>Verifying code style with linters</li>
+                                   	<li>Unit testing</li>
+                                   	<li>Continuous integration with GitHub</li>
+                                   	<li>Debugging</li>
+                                   	<li>Software requirements</li>
+                                   	<li>Software architectures</li>
+                                   	<li>Programming paradigms</li>
+                                   	<li>Code review</li>
+                                   	<li>Creating a Python package</li>
+                                   	<li>Collaborative tools of GitHub</li>
+                                   </ul>
 						</section>
                         </div>
 						</section>
@@ -138,20 +143,26 @@
 				<!-- Three -->
 					<section id="three" class="wrapper style1 fade-up">
 						<div class="inner">
-							<h2>The volunteers</h2>
+							<h2>The workshop developers, instructors and helpers</h2>
 				            <ul class="alt">
-								<li>Alex Razim </li>
-                                <li>Markus Hundertmark </li>
-                                <li>...</li>
+								<li>Alex Razim, Ruder Boscovic Institute, Zagreb, Croatia </li>
+                                <li>Markus Hundertmark, Astronomisches Rechen-Institut, Heidelberg, Germany </li>
+                                <li>Riley Clarke, University of Delaware, USA</li>
+                                <li>Angelica Kovacevic, University of Belgrade, Serbia</li>
+                                <li>Konstantin Malanchev, Carnegie Mellon University/LINCC, Pittsburgh, USA</li>
+                                <li>Rachel Street, Las Cumbres Observatory, USA</li>
+                                <li>Jennifer Sobeck, The California Institute of Technology, USA,</li>
+                                <li>Federica Bianco, University of Delaware, USA</li>
 							</ul>
+							<p>If you are interested in contributing to the development of materials or joining the instructors' team, feel free to contact us!</p>
                         </div>
 						</section>
 				</section>
 				<!-- Four -->
-					<section id="four" class="wrapper">
+					<section id="four" class="wrapper style2 fade-up">
 						<div class="inner">
-							<h2>The volunteers</h2>
-							<p>The list of volunteers, how to join</p>
+							<h2>Future plans</h2>
+							<p>The next InterPython workshop is going to take place before the end of 2024. Unlike the first workshop, the second one will be open for participation for the whole LSST community. We also plan to additionally improve the materials of the workshop, e.g. add episodes on using project templates and writing software documentation. </p>
                         </div>
 				</section>
 
