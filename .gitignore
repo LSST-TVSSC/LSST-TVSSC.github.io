@@ -1,1 +1,4 @@
 .DS_Store
+
+# Local (private) config for tvs_map_names.py
+tvs_map_names_config.json
